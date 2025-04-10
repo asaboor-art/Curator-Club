@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curator Club - Artist</title>
+    <link rel="icon" type="image/x-icon" href="images/curator-favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/animate.css">
+  </head>
+  <body class="label-bg-col">
+    <!-- HEADER SECTION BEGIN -->
+    <header class="header how-it-work-header" id="header">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+            <div class="header-inner account-setting-pg">
+              <nav class="navbar container">
+                <a href="index.html" class="brand"><img src="images/logo.png" alt="image" class="img-fluid"></a>
+                <div class="burger" id="burger">
+                  <span class="burger-line"></span>
+                  <span class="burger-line"></span>
+                  <span class="burger-line"></span>
+                </div>
+                <div class="menu" id="menu">
+                  <ul class="menu-inner">
+                    <li class="menu-item"><a href="index.html" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="list-of-curators.html" class="menu-link">List of Curators </a></li>
+                    <li class="menu-item mobile-dropdown-hide">
+                      <a href="javascript:void(0)" class="menu-link">
+                        <div id="dropdown-wrapper" class="dropdown-wrapper" tabindex="1">
+                          <span>How it works </span>
+                          <ul class="dropdown-list">
+                            <li><a href="how-it-works-curator.html">Curator</a></li>
+                            <li><a href="how-it-works-artist.html">Artist</a></li>
+                            <li><a href="how-it-works-influencer.html">influencer</a></li>
+                      </ul>
+                      </div>
+                      </a>
+                    </li>
+                    <li class="menu-item mobile-dropdown">
+                      <p>
+                        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        How it works  
+                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </a>
+                      </p>
+                      <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                          <ul class="mobile-dropdown-accordian">
+                            <li><a href="how-it-works-curator.html">Curator</a></li>
+                            <li><a href="how-it-works-artist.html">Artist</a></li>
+                            <li><a href="how-it-works-influencer.html">influencer</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="menu-item"><a href="help.html" class="menu-link">Help </a></li>
+                    <li class="menu-item">
+                      <div class="btns-flex curator-mobile-show">
+                        <div class="cur-login-btn">
+                          <div class='profile'>
+                            <div class='avatar'>
+                              <i class="fa fa-bell" aria-hidden="true"></i>
+                            </div>
+                          </div>
+                          <div class='profiledropdown'>
+                            <ul>
+                              <li class='option'>
+                                <a href="javascript:void(0)">
+                                  <div class="not-flex">
+                                    <div class="not-img">
+                                      <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                                    </div>
+                                    <div class="not-cont">
+                                      <p>Jeff Jordan <span>promoted your answer</span></p>
+                                    </div>
+                                  </div>
+                                </a>
+                              </li>
+                              <li class='option'>
+                                <a href="javascript:void(0)">
+                                  <div class="not-flex">
+                                    <div class="not-img">
+                                      <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                                    </div>
+                                    <div class="not-cont">
+                                      <p>Jeff Jordan <span>promoted your answer</span></p>
+                                    </div>
+                                  </div>
+                                </a>
+                              </li>
+                              <li class='option'>
+                                <a href="javascript:void(0)">
+                                  <div class="not-flex">
+                                    <div class="not-img">
+                                      <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                                    </div>
+                                    <div class="not-cont">
+                                      <p>Jeff Jordan <span>promoted your answer</span></p>
+                                    </div>
+                                  </div>
+                                </a>
+                              </li>
+                              <li class='option'>
+                                <a href="javascript:void(0)">
+                                  <div class="not-flex">
+                                    <div class="not-img">
+                                      <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                                    </div>
+                                    <div class="not-cont">
+                                      <p>Jeff Jordan <span>promoted your answer</span></p>
+                                    </div>
+                                  </div>
+                                </a>
+                              </li>
+                              <li class='option'>
+                                <a href="javascript:void(0)">
+                                  <div class="not-flex">
+                                    <div class="not-img">
+                                      <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                                    </div>
+                                    <div class="not-cont">
+                                      <p>Jeff Jordan <span>promoted your answer</span></p>
+                                    </div>
+                                  </div>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="cur-signup-btn">
+                          <div class="user-menu-wrap">
+                            <div class="jeff-cont">
+                              <a class="mini-photo-wrapper2" href="javascript:void(0)"><img class="mini-photo" src="images/avatar-small-img.png" alt="image" width="80" height="80"/>
+                              Jeff Jordan
+                              </a>
+                            </div>
+                            <div class="menu-container2">
+                              <ul class="user-menu">
+                                <div class="profile-highlight">
+                                  <img src="images/avatar-small-img.png" alt="profile-img" width=36 height=36>
+                                  <div class="details">
+                                    <div id="profile-name">Jeff Jordan</div>
+                                    <div id="profile-footer"><a href="javascript:void(0)" class="jeff-mail">jjordan@mail.com</a></div>
+                                    <div><a href="javascript:void(0)" class="jeff-view-profile">View Profile</a></div>
+                                  </div>
+                                </div>
+                                <li class="user-menu__item">
+                                  <a class="user-menu-link" href="javascript:void(0)">
+                                    <div>My Campaigns</div>
+                                  </a>
+                                </li>
+                                <li class="user-menu__item">
+                                  <a class="user-menu-link" href="javascript:void(0)">
+                                    <div>My Credits <span class="pull-right credit-amount-content">30 <img src="images/cur-small-logo.png" alt="image" class="img-fluid"></span></div>
+                                  </a>
+                                </li>
+                                <li class="user-menu__item">
+                                  <a class="user-menu-link" href="javascript:void(0)">
+                                    <div>Settings</div>
+                                  </a>
+                                </li>
+                                <li class="user-menu__item">
+                                  <a class="user-menu-link" href="javascript:void(0)">
+                                    <div>Help</div>
+                                  </a>
+                                </li>
+                                <li class="user-menu__item">
+                                  <a class="user-menu-link" href="javascript:void(0)">
+                                    <div>Log Out</div>
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+              <div class="btns-flex curator-mobile-hide">
+                <div class="cur-login-btn">
+                  <div class='profile'>
+                    <div class='avatar'>
+                      <i class="fa fa-bell" aria-hidden="true"></i>
+                    </div>
+                  </div>
+                  <div class='profiledropdown'>
+                    <ul>
+                      <li class='option'>
+                        <a href="javascript:void(0)">
+                          <div class="not-flex">
+                            <div class="not-img">
+                              <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                            </div>
+                            <div class="not-cont">
+                              <p>Jeff Jordan <span>promoted your answer</span></p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class='option'>
+                        <a href="javascript:void(0)">
+                          <div class="not-flex">
+                            <div class="not-img">
+                              <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                            </div>
+                            <div class="not-cont">
+                              <p>Jeff Jordan <span>promoted your answer</span></p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class='option'>
+                        <a href="javascript:void(0)">
+                          <div class="not-flex">
+                            <div class="not-img">
+                              <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                            </div>
+                            <div class="not-cont">
+                              <p>Jeff Jordan <span>promoted your answer</span></p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class='option'>
+                        <a href="javascript:void(0)">
+                          <div class="not-flex">
+                            <div class="not-img">
+                              <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                            </div>
+                            <div class="not-cont">
+                              <p>Jeff Jordan <span>promoted your answer</span></p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class='option'>
+                        <a href="javascript:void(0)">
+                          <div class="not-flex">
+                            <div class="not-img">
+                              <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                            </div>
+                            <div class="not-cont">
+                              <p>Jeff Jordan <span>promoted your answer</span></p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="cur-signup-btn">
+                  <div class="user-menu-wrap">
+                    <div class="jeff-cont">
+                      <a class="mini-photo-wrapper" href="javascript:void(0)"><img class="mini-photo" src="images/avatar-small-img.png" alt="image" width="80" height="80"/>
+                      Jeff Jordan
+                      </a>
+                    </div>
+                    <div class="menu-container">
+                      <ul class="user-menu">
+                        <div class="profile-highlight">
+                          <img src="images/avatar-small-img.png" alt="profile-img" width=36 height=36>
+                          <div class="details">
+                            <div id="profile-name">Jeff Jordan</div>
+                            <div id="profile-footer"><a href="javascript:void(0)" class="jeff-mail">jjordan@mail.com</a></div>
+                                    <div><a href="javascript:void(0)" class="jeff-view-profile">View Profile</a></div>
+                          </div>
+                        </div>
+                        <li class="user-menu__item">
+                          <a class="user-menu-link" href="javascript:void(0)">
+                            <div>My Campaigns</div>
+                          </a>
+                        </li>
+                        <li class="user-menu__item">
+                          <a class="user-menu-link" href="javascript:void(0)">
+                            <div>My Credits <span class="pull-right credit-amount-content">30 <img src="images/cur-small-logo.png" alt="image" class="img-fluid"></span></div>
+                          </a>
+                        </li>
+                        <li class="user-menu__item">
+                          <a class="user-menu-link" href="javascript:void(0)">
+                            <div>Settings</div>
+                          </a>
+                        </li>
+                        <li class="user-menu__item">
+                          <a class="user-menu-link" href="javascript:void(0)">
+                            <div>Help</div>
+                          </a>
+                        </li>
+                        <li class="user-menu__item">
+                          <a class="user-menu-link" href="javascript:void(0)">
+                            <div>Log Out</div>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- HEADER SECTION END -->
+    <!-- CURATOR BANNER SECTION BEGIN -->
+    <section class="curator-profile-banner artist-pg-banner">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="curator-banner-flex curator-label-flex">
+                        <div class="banner-circle-img border-line-circle">
+                            <img src="images/yb2.png" alt="image" class="img-fluid">
+                        </div>
+                        <div class="banner-circle-content">
+                            <h2>Jeff Jordan</h2>
+                            <div class="main-flag-flex">
+                                <div class="flag-flex">
+                                    <img src="images/us-flag.png" alt="image" class="img-fluid">
+                                    <p>United State</p>
+                                </div>
+                                <div class="user-flex-icon">
+                                    <div class="flex-user-icon">
+                                        <i class="fa fa-user" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="flex-user-content">
+                                        <span>Member Since</span>
+                                        <p>April 2023</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bt-style-box"></div>
+    </section>
+    <!-- CURATOR BANNER SECTION END -->
+    <!-- ABOUT NETWORK SECTION BEGIN -->
+    <section class="about-network-sec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8 col-md-12 col-sm-12 col-12">
+                    <div class="left-sec">
+                        <div class="left-sec-box">
+                            <h3>About Artist</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                            <div class="left-social-link">
+                                <ul>
+                                    <li><a href="javascript:void(0)"><img src="images/f1.png" alt="image" class="img-fluid"></a></li>
+                                    <li><a href="javascript:void(0)"><img src="images/f2.png" alt="image" class="img-fluid"></a></li>
+                                    <li><a href="javascript:void(0)"><img src="images/f3.png" alt="image" class="img-fluid"></a></li>
+                                    <li><a href="javascript:void(0)"><img src="images/f4.png" alt="image" class="img-fluid"></a></li>
+                                    <li><a href="javascript:void(0)"><img src="images/f5.png" alt="image" class="img-fluid"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="label-playlist-slider">
+                          <div class="label-playlist-flex">
+                            <div class="label-playlist-content">
+                              <h3>Tracks</h3>
+                            </div>
+                            <div class="label-view-all">
+                                <a href="my-campaign-artist-song.html">(View all)</a>
+                            </div>
+                          </div>
+                          <div class="artist-track-mobile-hide">
+                            <div class="row">
+                              <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                                <a href="my-campaign-artist-responses.html">
+                                  <div class="lb-box-inner tr-box-img">
+                                    <img src="images/tk1.png" alt="image" class="img-fluid">
+                                    <h6>I am Lost</h6>
+                                </div>
+                                </a>
+                              </div>
+                              <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                                 <a href="my-campaign-artist-responses.html">
+                                  <div class="lb-box-inner tr-box-img">
+                                    <img src="images/tk2.png" alt="image" class="img-fluid">
+                                    <h6>Who We Are</h6>
+                                </div>
+                                </a>
+                              </div>
+                              <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                                 <a href="my-campaign-artist-responses.html">
+                                  <div class="lb-box-inner tr-box-img">
+                                    <img src="images/tk3.png" alt="image" class="img-fluid">
+                                    <h6>Cypher 2.0</h6>
+                                </div>
+                                </a>
+                              </div>
+                              <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                                 <a href="my-campaign-artist-responses.html">
+                                  <div class="lb-box-inner tr-box-img">
+                                    <img src="images/tk4.png" alt="image" class="img-fluid">
+                                    <h6>Not Broken Yet</h6>
+                                </div>
+                                </a>
+                              </div>
+                              <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                                 <a href="my-campaign-artist-responses.html">
+                                  <div class="lb-box-inner tr-box-img">
+                                    <img src="images/tk5.png" alt="image" class="img-fluid">
+                                    <h6>City star</h6>
+                                </div>
+                                </a>
+                              </div>
+                              <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                                 <a href="my-campaign-artist-responses.html">
+                                  <div class="lb-box-inner tr-box-img">
+                                    <img src="images/tk6.png" alt="image" class="img-fluid">
+                                    <h6>Go Up</h6>
+                                </div>
+                                </a>
+                              </div>
+                              <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                                 <a href="my-campaign-artist-responses.html">
+                                  <div class="lb-box-inner tr-box-img">
+                                    <img src="images/tk7.png" alt="image" class="img-fluid">
+                                    <h6>Money Man</h6>
+                                </div>
+                                </a>
+                              </div>
+                              <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                                 <a href="my-campaign-artist-responses.html">
+                                  <div class="lb-box-inner tr-box-img">
+                                    <img src="images/tk8.png" alt="image" class="img-fluid">
+                                    <h6>Behind The Bars</h6>
+                                </div>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="artist-track-mobile-show">
+                            <div class="slider artist-page-mobile-responsive">
+                              <div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                                  <a href="my-campaign-artist-responses.html">
+                                    <div class="lb-box-inner tr-box-img">
+                                      <img src="images/tk1.png" alt="image" class="img-fluid">
+                                      <h6>I am Lost</h6>
+                                  </div>
+                                  </a>
+                                </div>
+                              </div>
+                              <div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                                  <a href="my-campaign-artist-responses.html">
+                                   <div class="lb-box-inner tr-box-img">
+                                     <img src="images/tk2.png" alt="image" class="img-fluid">
+                                     <h6>Who We Are</h6>
+                                 </div>
+                                 </a>
+                               </div>
+                              </div>
+                              <div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                                  <a href="my-campaign-artist-responses.html">
+                                   <div class="lb-box-inner tr-box-img">
+                                     <img src="images/tk3.png" alt="image" class="img-fluid">
+                                     <h6>Cypher 2.0</h6>
+                                 </div>
+                                 </a>
+                               </div>
+                              </div>
+                              <div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                                  <a href="my-campaign-artist-responses.html">
+                                   <div class="lb-box-inner tr-box-img">
+                                     <img src="images/tk4.png" alt="image" class="img-fluid">
+                                     <h6>Not Broken Yet</h6>
+                                 </div>
+                                 </a>
+                               </div>
+                              </div>
+                              <div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                                  <a href="my-campaign-artist-responses.html">
+                                   <div class="lb-box-inner tr-box-img">
+                                     <img src="images/tk5.png" alt="image" class="img-fluid">
+                                     <h6>City star</h6>
+                                 </div>
+                                 </a>
+                               </div>
+                              </div>
+                              <div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                                  <a href="my-campaign-artist-responses.html">
+                                   <div class="lb-box-inner tr-box-img">
+                                     <img src="images/tk6.png" alt="image" class="img-fluid">
+                                     <h6>Go Up</h6>
+                                 </div>
+                                 </a>
+                               </div>
+                              </div>
+                              <div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                                  <a href="my-campaign-artist-responses.html">
+                                   <div class="lb-box-inner tr-box-img">
+                                     <img src="images/tk7.png" alt="image" class="img-fluid">
+                                     <h6>Money Man</h6>
+                                 </div>
+                                 </a>
+                               </div>
+                              </div>
+                              <div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                                  <a href="my-campaign-artist-responses.html">
+                                   <div class="lb-box-inner tr-box-img">
+                                     <img src="images/tk8.png" alt="image" class="img-fluid">
+                                     <h6>Behind The Bars</h6>
+                                 </div>
+                                 </a>
+                               </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div class="favorites-box">
+                      <div class="favorite-top-bar">
+                        <div class="favorite-top-heading">
+                          <h3>Favorites</h3>
+                        </div>
+                        <div class="favorite-top-link">
+                          <a href="favourite.html">View all</a>
+                        </div>
+                      </div>
+                      <div class="artist-track-mobile-hide">
+                        <div class="row favorite-row-box">
+                          <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                            <a href="curator-profile.html">
+                              <div class="favorite-boxes-cont">
+                                <img src="images/fa1.png" alt="images" class="img-fluid">
+                                <p>@alannadrgn</p>
+                              </div>
+                            </a>
+                          </div>
+                          <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                            <a href="curator-profile.html">
+                              <div class="favorite-boxes-cont">
+                                <img src="images/fa2.png" alt="images" class="img-fluid">
+                                <p>@whoisbennyyyyyyy</p>
+                              </div>
+                            </a>
+                          </div>
+                          <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                            <a href="curator-profile.html">
+                              <div class="favorite-boxes-cont">
+                                <img src="images/fa3.png" alt="images" class="img-fluid">
+                                <p>gaby_cosplay</p>
+                              </div>
+                            </a>
+                          </div>
+                          <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                            <a href="curator-profile.html">
+                              <div class="favorite-boxes-cont">
+                                <img src="images/fa4.png" alt="images" class="img-fluid">
+                                <p>@notjameslunet</p>
+                              </div>
+                            </a>
+                          </div>
+                          <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                            <a href="curator-profile.html">
+                              <div class="favorite-boxes-cont">
+                                <img src="images/fa5.png" alt="images" class="img-fluid">
+                                <p>@jessecase</p>
+                              </div>
+                            </a>
+                          </div>
+                          <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                            <a href="curator-profile.html">
+                              <div class="favorite-boxes-cont">
+                                <img src="images/fa6.png" alt="images" class="img-fluid">
+                                <p>@purplemenio</p>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="artist-track-mobile-show">
+                        <div class="slider artist-top-view-responsive">
+                          <div>
+                            <a href="curator-profile.html">
+                              <div class="favorite-boxes-cont">
+                                <img src="images/fa1.png" alt="images" class="img-fluid">
+                                <p>@alannadrgn</p>
+                              </div>
+                            </a>
+                          </div>
+                          <div>
+                            <a href="curator-profile.html">
+                              <div class="favorite-boxes-cont">
+                                <img src="images/fa2.png" alt="images" class="img-fluid">
+                                <p>@whoisbennyyyyyyy</p>
+                              </div>
+                            </a>
+                          </div>
+                          <div>
+                            <a href="curator-profile.html">
+                              <div class="favorite-boxes-cont">
+                                <img src="images/fa3.png" alt="images" class="img-fluid">
+                                <p>gaby_cosplay</p>
+                              </div>
+                            </a>
+                          </div>
+                          <div>
+                            <a href="curator-profile.html">
+                              <div class="favorite-boxes-cont">
+                                <img src="images/fa4.png" alt="images" class="img-fluid">
+                                <p>@notjameslunet</p>
+                              </div>
+                            </a>
+                          </div>
+                          <div>
+                            <a href="curator-profile.html">
+                              <div class="favorite-boxes-cont">
+                                <img src="images/fa5.png" alt="images" class="img-fluid">
+                                <p>@jessecase</p>
+                              </div>
+                            </a>
+                          </div>
+                          <div>
+                            <a href="curator-profile.html">
+                              <div class="favorite-boxes-cont">
+                                <img src="images/fa6.png" alt="images" class="img-fluid">
+                                <p>@purplemenio</p>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT NETWORK SECTION END -->
+    <div class="bg-bottom-img">
+    <div class="footer-overlay"></div>
+    <!-- FOOTER SECTION BEGIN -->
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+            <div class="footer-logo-content">
+              <a href="javascript:void(0)"><img src="images/logo.png" alt="image" class="img-fluid"></a>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              <div class="curator-social-icon">
+                <ul>
+                  <li><a href="javascript:void(0)"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                  <li><a href="javascript:void(0)"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li><a href="javascript:void(0)"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-3 col-12">
+            <div class="curator-links">
+              <h6>Quick Links</h6>
+              <ul>
+                <li><a href="javascript:void(0)">List of Curators</a></li>
+                <li><a href="javascript:void(0)">List of Artists</a></li>
+                <li><a href="javascript:void(0)">About Us</a></li>
+                <li><a href="javascript:void(0)">FAQ</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-3 col-12">
+            <div class="curator-links">
+              <h6>Support</h6>
+              <ul>
+                <li><a href="javascript:void(0)">Help</a></li>
+                <li><a href="javascript:void(0)">Terms And conditions</a></li>
+                <li><a href="javascript:void(0)">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-12">
+            <div class="curator-links">
+              <h6>Start</h6>
+              <ul>
+                <li><a href="javascript:void(0)">Log In</a></li>
+                <li><a href="javascript:void(0)">Sign Up</a></li>
+                <li><a href="javascript:void(0)">Become a Curator/Influencer</a></li>
+                <li><a href="javascript:void(0)">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-4 col-12">
+            <div class="curator-links">
+              <h6>Get tips, tricks, and updates <span>on all things.</span></h6>
+              <div class="email-form">
+                <form>
+                  <input type="text" placeholder="First Name" class="form-control">
+                  <input type="email" placeholder="Email" class="form-control">
+                  <button type="button" class="btn btn-primary">SUBSCRIBE</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER SECTION END -->
+    <!-- COPYRIGHT SECTION BEGIN -->
+    <section class="copyright-sec-bg">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+            <p>Copyright © 2022-2023 Curator Club  |   All rights reserved   |   Proudly designed by <a href="javascript:void(0)">clickysoft</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- COPYRIGHT SECTION END -->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script>
+      /*MENUBAR SCRIPT BEGIN*/
+       const navbarMenu = document.getElementById("menu");
+       const burgerMenu = document.getElementById("burger");
+       const headerMenu = document.getElementById("header");
+       const overlayMenu = document.querySelector(".overlay");
+        if (burgerMenu && navbarMenu) {
+           burgerMenu.addEventListener("click", () => {
+              burgerMenu.classList.toggle("is-active");
+              navbarMenu.classList.toggle("is-active");
+           });
+        }
+        window.addEventListener("resize", () => {
+           if (window.innerWidth >= 992) {
+              if (navbarMenu.classList.contains("is-active")) {
+                 navbarMenu.classList.remove("is-active");
+                 overlayMenu.classList.remove("is-active");
+              }
+           }
+        });
+        /*MENUBAR SCRIPT END*/
+        /*DROPDOWN SCRIPT BEGIN*/
+        const dd = document.querySelector('#dropdown-wrapper');
+        const links = document.querySelectorAll('.dropdown-list a');
+        const span = document.querySelector('span');
+        dd.addEventListener('click', function() {
+          this.classList.toggle('is-active');
+        });
+        links.forEach((element) => {
+          element.addEventListener('click', function(evt) {
+            span.innerHTML = evt.currentTarget.textContent;
+          })
+        })
+      /*DROPDOWN SCRIPT END*/
+      /*ACCORDIAN SCRIPT BEGIN*/
+       $('.panel-collapse').on('show.bs.collapse', function () {
+       $(this).siblings('.panel-heading').addClass('active');
+       });
+       $('.panel-collapse').on('hide.bs.collapse', function () {
+       $(this).siblings('.panel-heading').removeClass('active');
+       });
+      /*ACCORDIAN SCRIPT END*/
+      // NOTIFICATION SCRIPT BEGIN
+      $(function() {
+      var profile = $('.profile');
+      var profiledropdown = $('.profiledropdown');
+      profile.on('click', function() {
+      if (profiledropdown.hasClass('fade')) {
+        profiledropdown.removeClass('fade').addClass('fade_reverse');
+      } else if (profiledropdown.hasClass('fade_reverse')) {
+        profiledropdown.removeClass('fade_reverse').addClass('fade');
+      } else {
+        profiledropdown.addClass('fade');
+      }
+      });
+      });
+      // NOTIFICATION SCRIPT END
+      // AVATAR SCRIPT BEGIN
+      document.querySelector('.mini-photo-wrapper').addEventListener('click', function() {
+      document.querySelector('.menu-container').classList.toggle('active');
+      });
+      document.querySelector('.mini-photo-wrapper2').addEventListener('click', function() {
+      document.querySelector('.menu-container2').classList.toggle('active');
+      });
+      // AVATAR SCRIPT END
+      // ARTIST PAGE MOBILE SLIDER SCRIPT BEGIN
+      $('.artist-page-mobile-responsive').slick({
+        dots: false,
+        arrows: false,
+        infinite: true,
+        autoplay: true,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      });
+      // ARTIST PAGE MOBILE SLIDER SCRIPT END
+      // ARTIST TOP VIEW PAGE MOBILE SLIDER SCRIPT BEGIN
+      $('.artist-top-view-responsive').slick({
+        dots: false,
+        arrows: false,
+        infinite: true,
+        autoplay: true,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      });
+      // ARTIST TOP VIEW PAGE MOBILE SLIDER SCRIPT END
+    </script> 
+  </body>
+</html>

@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curator Club - Checkout</title>
+    <link rel="icon" type="image/x-icon" href="images/curator-favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/animate.css">
+  </head>
+  <body>
+    <!-- HEADER SECTION BEGIN -->
+    <header class="header how-it-work-header" id="header">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+              <div class="header-inner account-setting-pg">
+                <nav class="navbar container">
+                  <a href="index.html" class="brand"><img src="images/logo.png" alt="image" class="img-fluid"></a>
+                  <div class="burger" id="burger">
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                  </div>
+                  <div class="menu" id="menu">
+                    <ul class="menu-inner">
+                      <li class="menu-item"><a href="index.html" class="menu-link">Home</a></li>
+                      <li class="menu-item"><a href="list-of-curators.html" class="menu-link">List of Curators </a></li>
+                      <li class="menu-item mobile-dropdown-hide">
+                        <a href="javascript:void(0)" class="menu-link">
+                          <div id="dropdown-wrapper" class="dropdown-wrapper" tabindex="1">
+                            <span>How it works </span>
+                            <ul class="dropdown-list">
+                              <li><a href="how-it-works-curator.html">Curator</a></li>
+                              <li><a href="how-it-works-artist.html">Artist</a></li>
+                              <li><a href="how-it-works-influencer.html">influencer</a></li>
+                        </ul>
+                        </div>
+                        </a>
+                      </li>
+                      <li class="menu-item mobile-dropdown">
+                        <p>
+                          <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                          How it works  
+                          <i class="fa fa-angle-down" aria-hidden="true"></i>
+                          </a>
+                        </p>
+                        <div class="collapse" id="collapseExample">
+                          <div class="card card-body">
+                            <ul class="mobile-dropdown-accordian">
+                              <li><a href="how-it-works-curator.html">Curator</a></li>
+                              <li><a href="how-it-works-artist.html">Artist</a></li>
+                              <li><a href="how-it-works-influencer.html">influencer</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="menu-item"><a href="help.html" class="menu-link">Help </a></li>
+                      <li class="menu-item">
+                        <div class="btns-flex curator-mobile-show">
+                          <div class="cur-login-btn">
+                            <div class='profile'>
+                              <div class='avatar'>
+                                <i class="fa fa-bell" aria-hidden="true"></i>
+                              </div>
+                            </div>
+                            <div class='profiledropdown'>
+                              <ul>
+                                <li class='option'>
+                                  <a href="javascript:void(0)">
+                                    <div class="not-flex">
+                                      <div class="not-img">
+                                        <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                                      </div>
+                                      <div class="not-cont">
+                                        <p>Jeff Jordan <span>promoted your answer</span></p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </li>
+                                <li class='option'>
+                                  <a href="javascript:void(0)">
+                                    <div class="not-flex">
+                                      <div class="not-img">
+                                        <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                                      </div>
+                                      <div class="not-cont">
+                                        <p>Jeff Jordan <span>promoted your answer</span></p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </li>
+                                <li class='option'>
+                                  <a href="javascript:void(0)">
+                                    <div class="not-flex">
+                                      <div class="not-img">
+                                        <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                                      </div>
+                                      <div class="not-cont">
+                                        <p>Jeff Jordan <span>promoted your answer</span></p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </li>
+                                <li class='option'>
+                                  <a href="javascript:void(0)">
+                                    <div class="not-flex">
+                                      <div class="not-img">
+                                        <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                                      </div>
+                                      <div class="not-cont">
+                                        <p>Jeff Jordan <span>promoted your answer</span></p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </li>
+                                <li class='option'>
+                                  <a href="javascript:void(0)">
+                                    <div class="not-flex">
+                                      <div class="not-img">
+                                        <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                                      </div>
+                                      <div class="not-cont">
+                                        <p>Jeff Jordan <span>promoted your answer</span></p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="cur-signup-btn">
+                            <div class="user-menu-wrap">
+                              <div class="jeff-cont">
+                                <a class="mini-photo-wrapper2" href="javascript:void(0)"><img class="mini-photo" src="images/avatar-small-img.png" alt="image" width="80" height="80"/>
+                                Jeff Jordan
+                                </a>
+                              </div>
+                              <div class="menu-container2">
+                                <ul class="user-menu">
+                                  <div class="profile-highlight">
+                                    <img src="images/avatar-small-img.png" alt="profile-img" width=36 height=36>
+                                    <div class="details">
+                                      <div id="profile-name">Jeff Jordan</div>
+                                      <div id="profile-footer"><a href="javascript:void(0)" class="jeff-mail">jjordan@mail.com</a></div>
+                                      <div><a href="javascript:void(0)" class="jeff-view-profile">View Profile</a></div>
+                                    </div>
+                                  </div>
+                                  <li class="user-menu__item">
+                                    <a class="user-menu-link" href="javascript:void(0)">
+                                      <div>My Campaigns</div>
+                                    </a>
+                                  </li>
+                                  <li class="user-menu__item">
+                                    <a class="user-menu-link" href="javascript:void(0)">
+                                      <div>My Credits <span class="pull-right credit-amount-content">30 <img src="images/cur-small-logo.png" alt="image" class="img-fluid"></span></div>
+                                    </a>
+                                  </li>
+                                  <li class="user-menu__item">
+                                    <a class="user-menu-link" href="javascript:void(0)">
+                                      <div>Settings</div>
+                                    </a>
+                                  </li>
+                                  <li class="user-menu__item">
+                                    <a class="user-menu-link" href="javascript:void(0)">
+                                      <div>Help</div>
+                                    </a>
+                                  </li>
+                                  <li class="user-menu__item">
+                                    <a class="user-menu-link" href="javascript:void(0)">
+                                      <div>Log Out</div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+                <div class="btns-flex curator-mobile-hide">
+                  <div class="cur-login-btn">
+                    <div class='profile'>
+                      <div class='avatar'>
+                        <i class="fa fa-bell" aria-hidden="true"></i>
+                      </div>
+                    </div>
+                    <div class='profiledropdown'>
+                      <ul>
+                        <li class='option'>
+                          <a href="javascript:void(0)">
+                            <div class="not-flex">
+                              <div class="not-img">
+                                <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                              </div>
+                              <div class="not-cont">
+                                <p>Natalie Portman <span>promoted your answer</span></p>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                        <li class='option'>
+                          <a href="javascript:void(0)">
+                            <div class="not-flex">
+                              <div class="not-img">
+                                <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                              </div>
+                              <div class="not-cont">
+                                <p>Natalie Portman <span>promoted your answer</span></p>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                        <li class='option'>
+                          <a href="javascript:void(0)">
+                            <div class="not-flex">
+                              <div class="not-img">
+                                <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                              </div>
+                              <div class="not-cont">
+                                <p>Natalie Portman <span>promoted your answer</span></p>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                        <li class='option'>
+                          <a href="javascript:void(0)">
+                            <div class="not-flex">
+                              <div class="not-img">
+                                <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                              </div>
+                              <div class="not-cont">
+                                <p>Natalie Portman <span>promoted your answer</span></p>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                        <li class='option'>
+                          <a href="javascript:void(0)">
+                            <div class="not-flex">
+                              <div class="not-img">
+                                <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                              </div>
+                              <div class="not-cont">
+                                <p>Natalie Portman <span>promoted your answer</span></p>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="cur-signup-btn">
+                    <div class="user-menu-wrap">
+                      <div class="jeff-cont">
+                        <a class="mini-photo-wrapper" href="javascript:void(0)"><img class="mini-photo" src="images/avatar-small-img.png" alt="image" width="80" height="80"/>
+                         Jeff Jordan 
+                        </a>
+                      </div>
+                      <div class="menu-container">
+                        <ul class="user-menu">
+                          <div class="profile-highlight">
+                            <img src="images/avatar-small-img.png" alt="profile-img" width=36 height=36>
+                            <div class="details">
+                              <div id="profile-name">Jeff Jordan</div>
+                              <div id="profile-footer"><a href="javascript:void(0)" class="jeff-mail">jjordan@mail.com</a></div>
+                              <div><a href="javascript:void(0)" class="jeff-view-profile">View Profile</a></div>
+                            </div>
+                          </div>
+                          <li class="user-menu__item">
+                            <a class="user-menu-link" href="javascript:void(0)">
+                              <div>My Campaigns</div>
+                            </a>
+                          </li>
+                          <li class="user-menu__item">
+                            <a class="user-menu-link" href="javascript:void(0)">
+                              <div>My Credits <span class="pull-right credit-amount-content">30 <img src="images/cur-small-logo.png" alt="image" class="img-fluid"></span></div>
+                            </a>
+                          </li>
+                          <li class="user-menu__item">
+                            <a class="user-menu-link" href="javascript:void(0)">
+                              <div>Settings</div>
+                            </a>
+                          </li>
+                          <li class="user-menu__item">
+                            <a class="user-menu-link" href="javascript:void(0)">
+                              <div>Help</div>
+                            </a>
+                          </li>
+                          <li class="user-menu__item">
+                            <a class="user-menu-link" href="javascript:void(0)">
+                              <div>Log Out</div>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </header>
+    <!-- HEADER SECTION END -->
+    <!-- CHECKOUT SECTION BEGIN -->
+    <section class="coin-bundles-sec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-12 left-grey-bg">
+                    <div class="coin-bundles-content">
+                        <h5>Coin Bundles</h5>
+                        <div class="box-bundle" onclick="activateBundle(this)">
+                            <div class="bundle-inner-text">
+                                <div class="bundle-inner-selection">
+                                    <input type="radio" id="bundle-radio" name="bundle">
+                                    <label for="bundle-radio"></label>
+                                </div>
+                                <div class="bundle-inner-amount">
+                                    <span>10   
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="39.173" height="39.172" viewBox="0 0 39.173 39.172"><g transform="translate(-405.134 -933.999)"><g transform="translate(409.842 932.141)"><g transform="translate(-4.708 1.859)"><path d="M19.586,2.671A16.915,16.915,0,0,0,7.625,31.547,16.915,16.915,0,1,0,31.547,7.625,16.8,16.8,0,0,0,19.586,2.671m0-2.671A19.586,19.586,0,1,1,0,19.586,19.586,19.586,0,0,1,19.586,0Z" fill="#262626"/></g></g><g transform="translate(416.134 943.303) rotate(-1)"><g transform="translate(0 0)"><path d="M11.944,13.648a4.984,4.984,0,1,1-9.969,0V6.791A8.384,8.384,0,0,1,5.437,0,6.961,6.961,0,0,0,0,6.791v6.857a6.96,6.96,0,1,0,13.92,0v-.076h1.434v.079a8.384,8.384,0,0,1-3.461,6.788,6.961,6.961,0,0,0,5.437-6.791V11.6H11.944Z" transform="translate(0 0.173)" fill="#262626"/><path d="M13.92,6.96A6.96,6.96,0,1,0,0,6.96v6.857H0A3.52,3.52,0,0,0,.606,15.8a3.581,3.581,0,0,0,1.565,1.29,3.517,3.517,0,0,0,1.292.277,4.969,4.969,0,0,1-1.488-3.548V6.96a4.984,4.984,0,1,1,9.969,0v.076H10.51V6.96A3.519,3.519,0,0,0,9.9,4.979a3.581,3.581,0,0,0-1.565-1.29,3.518,3.518,0,0,0-1.292-.277A4.969,4.969,0,0,1,8.535,6.96V9.012H13.92Z" transform="translate(3.409 0)" fill="#262626"/></g></g></g></svg>
+                                    </span>
+                                    <h6>$10 USD</h6>
+                                </div>
+                            </div>
+                            <div class="bundle-small-img">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="68" height="68" viewBox="0 0 68 68"><g transform="translate(-0.68 -0.211)"><circle cx="34" cy="34" r="34" transform="translate(0.68 0.211)" fill="#fbbc04" opacity="0.4"/><g transform="translate(10.797 10.327)"><g transform="translate(-0.116 -0.118)" fill="none" stroke="#535353" stroke-width="1"><circle cx="24.5" cy="24.5" r="24.5" stroke="none"/><circle cx="24.5" cy="24.5" r="24" fill="none"/></g><g transform="translate(13.163 11.505) rotate(-1)"><g transform="translate(0 0)"><path d="M15.489,17.7a6.463,6.463,0,1,1-12.927,0V8.806A10.872,10.872,0,0,1,7.05,0,9.027,9.027,0,0,0,0,8.806V17.7a9.025,9.025,0,1,0,18.051,0v-.1h1.86v.1s0,0,0,0a10.871,10.871,0,0,1-4.488,8.8,9.027,9.027,0,0,0,7.05-8.806V15.037H15.489Z" transform="translate(0 0.224)" fill="#535353"/><path d="M18.051,9.025A9.025,9.025,0,1,0,0,9.025V17.92a4.564,4.564,0,0,0,.786,2.568,4.644,4.644,0,0,0,2.03,1.673,4.561,4.561,0,0,0,1.676.359,6.443,6.443,0,0,1-1.929-4.6V9.025a6.463,6.463,0,1,1,12.927,0v.1h-1.86v-.1a4.564,4.564,0,0,0-.786-2.57,4.644,4.644,0,0,0-2.029-1.673,4.561,4.561,0,0,0-1.676-.359,6.443,6.443,0,0,1,1.93,4.6v2.661h6.984Z" transform="translate(4.421)" fill="#535353"/></g></g></g></g></svg>
+                            </div>
+                        </div>
+                        <div class="box-bundle" onclick="activateBundle(this)">
+                            <div class="bundle-inner-text">
+                                <div class="bundle-inner-selection">
+                                    <input type="radio" id="bundle-radio1" name="bundle">
+                                    <label for="bundle-radio1"></label>
+                                </div>
+                                <div class="bundle-inner-amount">
+                                    <span>30   
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="39.173" height="39.172" viewBox="0 0 39.173 39.172"><g transform="translate(-405.134 -933.999)"><g transform="translate(409.842 932.141)"><g transform="translate(-4.708 1.859)"><path d="M19.586,2.671A16.915,16.915,0,0,0,7.625,31.547,16.915,16.915,0,1,0,31.547,7.625,16.8,16.8,0,0,0,19.586,2.671m0-2.671A19.586,19.586,0,1,1,0,19.586,19.586,19.586,0,0,1,19.586,0Z" fill="#262626"/></g></g><g transform="translate(416.134 943.303) rotate(-1)"><g transform="translate(0 0)"><path d="M11.944,13.648a4.984,4.984,0,1,1-9.969,0V6.791A8.384,8.384,0,0,1,5.437,0,6.961,6.961,0,0,0,0,6.791v6.857a6.96,6.96,0,1,0,13.92,0v-.076h1.434v.079a8.384,8.384,0,0,1-3.461,6.788,6.961,6.961,0,0,0,5.437-6.791V11.6H11.944Z" transform="translate(0 0.173)" fill="#262626"/><path d="M13.92,6.96A6.96,6.96,0,1,0,0,6.96v6.857H0A3.52,3.52,0,0,0,.606,15.8a3.581,3.581,0,0,0,1.565,1.29,3.517,3.517,0,0,0,1.292.277,4.969,4.969,0,0,1-1.488-3.548V6.96a4.984,4.984,0,1,1,9.969,0v.076H10.51V6.96A3.519,3.519,0,0,0,9.9,4.979a3.581,3.581,0,0,0-1.565-1.29,3.518,3.518,0,0,0-1.292-.277A4.969,4.969,0,0,1,8.535,6.96V9.012H13.92Z" transform="translate(3.409 0)" fill="#262626"/></g></g></g></svg>
+                                    </span>
+                                    <h6>$28 USD</h6>
+                                </div>
+                            </div>
+                            <div class="bundle-small-img">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="68" height="68" viewBox="0 0 68 68"><g transform="translate(-0.68 -0.211)"><circle cx="34" cy="34" r="34" transform="translate(0.68 0.211)" fill="#fbbc04" opacity="0.4"/><g transform="translate(10.797 10.327)"><g transform="translate(-0.116 -0.118)" fill="none" stroke="#535353" stroke-width="1"><circle cx="24.5" cy="24.5" r="24.5" stroke="none"/><circle cx="24.5" cy="24.5" r="24" fill="none"/></g><g transform="translate(13.163 11.505) rotate(-1)"><g transform="translate(0 0)"><path d="M15.489,17.7a6.463,6.463,0,1,1-12.927,0V8.806A10.872,10.872,0,0,1,7.05,0,9.027,9.027,0,0,0,0,8.806V17.7a9.025,9.025,0,1,0,18.051,0v-.1h1.86v.1s0,0,0,0a10.871,10.871,0,0,1-4.488,8.8,9.027,9.027,0,0,0,7.05-8.806V15.037H15.489Z" transform="translate(0 0.224)" fill="#535353"/><path d="M18.051,9.025A9.025,9.025,0,1,0,0,9.025V17.92a4.564,4.564,0,0,0,.786,2.568,4.644,4.644,0,0,0,2.03,1.673,4.561,4.561,0,0,0,1.676.359,6.443,6.443,0,0,1-1.929-4.6V9.025a6.463,6.463,0,1,1,12.927,0v.1h-1.86v-.1a4.564,4.564,0,0,0-.786-2.57,4.644,4.644,0,0,0-2.029-1.673,4.561,4.561,0,0,0-1.676-.359,6.443,6.443,0,0,1,1.93,4.6v2.661h6.984Z" transform="translate(4.421)" fill="#535353"/></g></g></g></g></svg>
+                            </div>
+                        </div>
+                        <div class="box-bundle" onclick="activateBundle(this)">
+                            <div class="bundle-inner-text">
+                                <div class="bundle-inner-selection">
+                                    <input type="radio" id="bundle-radio2" name="bundle">
+                                    <label for="bundle-radio2"></label>
+                                </div>
+                                <div class="bundle-inner-amount">
+                                    <span>50   
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="39.173" height="39.172" viewBox="0 0 39.173 39.172"><g transform="translate(-405.134 -933.999)"><g transform="translate(409.842 932.141)"><g transform="translate(-4.708 1.859)"><path d="M19.586,2.671A16.915,16.915,0,0,0,7.625,31.547,16.915,16.915,0,1,0,31.547,7.625,16.8,16.8,0,0,0,19.586,2.671m0-2.671A19.586,19.586,0,1,1,0,19.586,19.586,19.586,0,0,1,19.586,0Z" fill="#262626"/></g></g><g transform="translate(416.134 943.303) rotate(-1)"><g transform="translate(0 0)"><path d="M11.944,13.648a4.984,4.984,0,1,1-9.969,0V6.791A8.384,8.384,0,0,1,5.437,0,6.961,6.961,0,0,0,0,6.791v6.857a6.96,6.96,0,1,0,13.92,0v-.076h1.434v.079a8.384,8.384,0,0,1-3.461,6.788,6.961,6.961,0,0,0,5.437-6.791V11.6H11.944Z" transform="translate(0 0.173)" fill="#262626"/><path d="M13.92,6.96A6.96,6.96,0,1,0,0,6.96v6.857H0A3.52,3.52,0,0,0,.606,15.8a3.581,3.581,0,0,0,1.565,1.29,3.517,3.517,0,0,0,1.292.277,4.969,4.969,0,0,1-1.488-3.548V6.96a4.984,4.984,0,1,1,9.969,0v.076H10.51V6.96A3.519,3.519,0,0,0,9.9,4.979a3.581,3.581,0,0,0-1.565-1.29,3.518,3.518,0,0,0-1.292-.277A4.969,4.969,0,0,1,8.535,6.96V9.012H13.92Z" transform="translate(3.409 0)" fill="#262626"/></g></g></g></svg>
+                                    </span>
+                                    <h6>$45 USD</h6>
+                                </div>
+                            </div>
+                            <div class="bundle-small-img">    
+                            <svg xmlns="http://www.w3.org/2000/svg" width="68" height="68" viewBox="0 0 68 68"><g transform="translate(-0.68 -0.211)"><circle cx="34" cy="34" r="34" transform="translate(0.68 0.211)" fill="#fbbc04" opacity="0.4"/><g transform="translate(10.797 10.327)"><g transform="translate(-0.116 -0.118)" fill="none" stroke="#535353" stroke-width="1"><circle cx="24.5" cy="24.5" r="24.5" stroke="none"/><circle cx="24.5" cy="24.5" r="24" fill="none"/></g><g transform="translate(13.163 11.505) rotate(-1)"><g transform="translate(0 0)"><path d="M15.489,17.7a6.463,6.463,0,1,1-12.927,0V8.806A10.872,10.872,0,0,1,7.05,0,9.027,9.027,0,0,0,0,8.806V17.7a9.025,9.025,0,1,0,18.051,0v-.1h1.86v.1s0,0,0,0a10.871,10.871,0,0,1-4.488,8.8,9.027,9.027,0,0,0,7.05-8.806V15.037H15.489Z" transform="translate(0 0.224)" fill="#535353"/><path d="M18.051,9.025A9.025,9.025,0,1,0,0,9.025V17.92a4.564,4.564,0,0,0,.786,2.568,4.644,4.644,0,0,0,2.03,1.673,4.561,4.561,0,0,0,1.676.359,6.443,6.443,0,0,1-1.929-4.6V9.025a6.463,6.463,0,1,1,12.927,0v.1h-1.86v-.1a4.564,4.564,0,0,0-.786-2.57,4.644,4.644,0,0,0-2.029-1.673,4.561,4.561,0,0,0-1.676-.359,6.443,6.443,0,0,1,1.93,4.6v2.661h6.984Z" transform="translate(4.421)" fill="#535353"/></g></g></g></g></svg>
+                            </div>
+                        </div>
+                        <div class="box-bundle" onclick="activateBundle(this)">
+                            <div class="bundle-inner-text">
+                                <div class="bundle-inner-selection">
+                                    <input type="radio" id="bundle-radio3" name="bundle">
+                                    <label for="bundle-radio3"></label>
+                                </div>
+                                <div class="bundle-inner-amount">
+                                    <span>100   
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="39.173" height="39.172" viewBox="0 0 39.173 39.172"><g transform="translate(-405.134 -933.999)"><g transform="translate(409.842 932.141)"><g transform="translate(-4.708 1.859)"><path d="M19.586,2.671A16.915,16.915,0,0,0,7.625,31.547,16.915,16.915,0,1,0,31.547,7.625,16.8,16.8,0,0,0,19.586,2.671m0-2.671A19.586,19.586,0,1,1,0,19.586,19.586,19.586,0,0,1,19.586,0Z" fill="#262626"/></g></g><g transform="translate(416.134 943.303) rotate(-1)"><g transform="translate(0 0)"><path d="M11.944,13.648a4.984,4.984,0,1,1-9.969,0V6.791A8.384,8.384,0,0,1,5.437,0,6.961,6.961,0,0,0,0,6.791v6.857a6.96,6.96,0,1,0,13.92,0v-.076h1.434v.079a8.384,8.384,0,0,1-3.461,6.788,6.961,6.961,0,0,0,5.437-6.791V11.6H11.944Z" transform="translate(0 0.173)" fill="#262626"/><path d="M13.92,6.96A6.96,6.96,0,1,0,0,6.96v6.857H0A3.52,3.52,0,0,0,.606,15.8a3.581,3.581,0,0,0,1.565,1.29,3.517,3.517,0,0,0,1.292.277,4.969,4.969,0,0,1-1.488-3.548V6.96a4.984,4.984,0,1,1,9.969,0v.076H10.51V6.96A3.519,3.519,0,0,0,9.9,4.979a3.581,3.581,0,0,0-1.565-1.29,3.518,3.518,0,0,0-1.292-.277A4.969,4.969,0,0,1,8.535,6.96V9.012H13.92Z" transform="translate(3.409 0)" fill="#262626"/></g></g></g></svg>
+                                    </span>
+                                    <h6>$90 USD</h6>
+                                </div>
+                            </div>
+                            <div class="bundle-small-img">  
+                              <svg xmlns="http://www.w3.org/2000/svg" width="68" height="68" viewBox="0 0 68 68"><g transform="translate(-0.68 -0.211)"><circle cx="34" cy="34" r="34" transform="translate(0.68 0.211)" fill="#fbbc04" opacity="0.4"/><g transform="translate(10.797 10.327)"><g transform="translate(-0.116 -0.118)" fill="none" stroke="#535353" stroke-width="1"><circle cx="24.5" cy="24.5" r="24.5" stroke="none"/><circle cx="24.5" cy="24.5" r="24" fill="none"/></g><g transform="translate(13.163 11.505) rotate(-1)"><g transform="translate(0 0)"><path d="M15.489,17.7a6.463,6.463,0,1,1-12.927,0V8.806A10.872,10.872,0,0,1,7.05,0,9.027,9.027,0,0,0,0,8.806V17.7a9.025,9.025,0,1,0,18.051,0v-.1h1.86v.1s0,0,0,0a10.871,10.871,0,0,1-4.488,8.8,9.027,9.027,0,0,0,7.05-8.806V15.037H15.489Z" transform="translate(0 0.224)" fill="#535353"/><path d="M18.051,9.025A9.025,9.025,0,1,0,0,9.025V17.92a4.564,4.564,0,0,0,.786,2.568,4.644,4.644,0,0,0,2.03,1.673,4.561,4.561,0,0,0,1.676.359,6.443,6.443,0,0,1-1.929-4.6V9.025a6.463,6.463,0,1,1,12.927,0v.1h-1.86v-.1a4.564,4.564,0,0,0-.786-2.57,4.644,4.644,0,0,0-2.029-1.673,4.561,4.561,0,0,0-1.676-.359,6.443,6.443,0,0,1,1.93,4.6v2.661h6.984Z" transform="translate(4.421)" fill="#535353"/></g></g></g></g></svg>
+                            </div>
+                        </div>
+                        <div class="box-bundle" onclick="activateBundle(this)">
+                            <div class="bundle-inner-text">
+                                <div class="bundle-inner-selection">
+                                    <input type="radio" id="bundle-radio4" name="bundle">
+                                    <label for="bundle-radio4"></label>
+                                </div>
+                                <div class="bundle-inner-amount">
+                                    <span>250   
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="39.173" height="39.172" viewBox="0 0 39.173 39.172"><g transform="translate(-405.134 -933.999)"><g transform="translate(409.842 932.141)"><g transform="translate(-4.708 1.859)"><path d="M19.586,2.671A16.915,16.915,0,0,0,7.625,31.547,16.915,16.915,0,1,0,31.547,7.625,16.8,16.8,0,0,0,19.586,2.671m0-2.671A19.586,19.586,0,1,1,0,19.586,19.586,19.586,0,0,1,19.586,0Z" fill="#262626"/></g></g><g transform="translate(416.134 943.303) rotate(-1)"><g transform="translate(0 0)"><path d="M11.944,13.648a4.984,4.984,0,1,1-9.969,0V6.791A8.384,8.384,0,0,1,5.437,0,6.961,6.961,0,0,0,0,6.791v6.857a6.96,6.96,0,1,0,13.92,0v-.076h1.434v.079a8.384,8.384,0,0,1-3.461,6.788,6.961,6.961,0,0,0,5.437-6.791V11.6H11.944Z" transform="translate(0 0.173)" fill="#262626"/><path d="M13.92,6.96A6.96,6.96,0,1,0,0,6.96v6.857H0A3.52,3.52,0,0,0,.606,15.8a3.581,3.581,0,0,0,1.565,1.29,3.517,3.517,0,0,0,1.292.277,4.969,4.969,0,0,1-1.488-3.548V6.96a4.984,4.984,0,1,1,9.969,0v.076H10.51V6.96A3.519,3.519,0,0,0,9.9,4.979a3.581,3.581,0,0,0-1.565-1.29,3.518,3.518,0,0,0-1.292-.277A4.969,4.969,0,0,1,8.535,6.96V9.012H13.92Z" transform="translate(3.409 0)" fill="#262626"/></g></g></g></svg>
+                                    </span>
+                                    <h6>$210 USD</h6>
+                                </div>
+                            </div>
+                            <div class="bundle-small-img">    
+                            <svg xmlns="http://www.w3.org/2000/svg" width="68" height="68" viewBox="0 0 68 68"><g transform="translate(-0.68 -0.211)"><circle cx="34" cy="34" r="34" transform="translate(0.68 0.211)" fill="#fbbc04" opacity="0.4"/><g transform="translate(10.797 10.327)"><g transform="translate(-0.116 -0.118)" fill="none" stroke="#535353" stroke-width="1"><circle cx="24.5" cy="24.5" r="24.5" stroke="none"/><circle cx="24.5" cy="24.5" r="24" fill="none"/></g><g transform="translate(13.163 11.505) rotate(-1)"><g transform="translate(0 0)"><path d="M15.489,17.7a6.463,6.463,0,1,1-12.927,0V8.806A10.872,10.872,0,0,1,7.05,0,9.027,9.027,0,0,0,0,8.806V17.7a9.025,9.025,0,1,0,18.051,0v-.1h1.86v.1s0,0,0,0a10.871,10.871,0,0,1-4.488,8.8,9.027,9.027,0,0,0,7.05-8.806V15.037H15.489Z" transform="translate(0 0.224)" fill="#535353"/><path d="M18.051,9.025A9.025,9.025,0,1,0,0,9.025V17.92a4.564,4.564,0,0,0,.786,2.568,4.644,4.644,0,0,0,2.03,1.673,4.561,4.561,0,0,0,1.676.359,6.443,6.443,0,0,1-1.929-4.6V9.025a6.463,6.463,0,1,1,12.927,0v.1h-1.86v-.1a4.564,4.564,0,0,0-.786-2.57,4.644,4.644,0,0,0-2.029-1.673,4.561,4.561,0,0,0-1.676-.359,6.443,6.443,0,0,1,1.93,4.6v2.661h6.984Z" transform="translate(4.421)" fill="#535353"/></g></g></g></g></svg>
+                            </div>
+                        </div>
+                        <div class="box-bundle" onclick="activateBundle(this)">
+                            <div class="bundle-inner-text">
+                                <div class="bundle-inner-selection">
+                                    <input type="radio" id="bundle-radio5" name="bundle">
+                                    <label for="bundle-radio5"></label>
+                                </div>
+                                <div class="bundle-inner-amount">
+                                    <span>500   
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="39.173" height="39.172" viewBox="0 0 39.173 39.172"><g transform="translate(-405.134 -933.999)"><g transform="translate(409.842 932.141)"><g transform="translate(-4.708 1.859)"><path d="M19.586,2.671A16.915,16.915,0,0,0,7.625,31.547,16.915,16.915,0,1,0,31.547,7.625,16.8,16.8,0,0,0,19.586,2.671m0-2.671A19.586,19.586,0,1,1,0,19.586,19.586,19.586,0,0,1,19.586,0Z" fill="#262626"/></g></g><g transform="translate(416.134 943.303) rotate(-1)"><g transform="translate(0 0)"><path d="M11.944,13.648a4.984,4.984,0,1,1-9.969,0V6.791A8.384,8.384,0,0,1,5.437,0,6.961,6.961,0,0,0,0,6.791v6.857a6.96,6.96,0,1,0,13.92,0v-.076h1.434v.079a8.384,8.384,0,0,1-3.461,6.788,6.961,6.961,0,0,0,5.437-6.791V11.6H11.944Z" transform="translate(0 0.173)" fill="#262626"/><path d="M13.92,6.96A6.96,6.96,0,1,0,0,6.96v6.857H0A3.52,3.52,0,0,0,.606,15.8a3.581,3.581,0,0,0,1.565,1.29,3.517,3.517,0,0,0,1.292.277,4.969,4.969,0,0,1-1.488-3.548V6.96a4.984,4.984,0,1,1,9.969,0v.076H10.51V6.96A3.519,3.519,0,0,0,9.9,4.979a3.581,3.581,0,0,0-1.565-1.29,3.518,3.518,0,0,0-1.292-.277A4.969,4.969,0,0,1,8.535,6.96V9.012H13.92Z" transform="translate(3.409 0)" fill="#262626"/></g></g></g></svg>
+                                    </span>
+                                    <h6>$400 USD</h6>
+                                </div>
+                            </div>
+                            <div class="bundle-small-img">   
+                            <svg xmlns="http://www.w3.org/2000/svg" width="68" height="68" viewBox="0 0 68 68"><g transform="translate(-0.68 -0.211)"><circle cx="34" cy="34" r="34" transform="translate(0.68 0.211)" fill="#fbbc04" opacity="0.4"/><g transform="translate(10.797 10.327)"><g transform="translate(-0.116 -0.118)" fill="none" stroke="#535353" stroke-width="1"><circle cx="24.5" cy="24.5" r="24.5" stroke="none"/><circle cx="24.5" cy="24.5" r="24" fill="none"/></g><g transform="translate(13.163 11.505) rotate(-1)"><g transform="translate(0 0)"><path d="M15.489,17.7a6.463,6.463,0,1,1-12.927,0V8.806A10.872,10.872,0,0,1,7.05,0,9.027,9.027,0,0,0,0,8.806V17.7a9.025,9.025,0,1,0,18.051,0v-.1h1.86v.1s0,0,0,0a10.871,10.871,0,0,1-4.488,8.8,9.027,9.027,0,0,0,7.05-8.806V15.037H15.489Z" transform="translate(0 0.224)" fill="#535353"/><path d="M18.051,9.025A9.025,9.025,0,1,0,0,9.025V17.92a4.564,4.564,0,0,0,.786,2.568,4.644,4.644,0,0,0,2.03,1.673,4.561,4.561,0,0,0,1.676.359,6.443,6.443,0,0,1-1.929-4.6V9.025a6.463,6.463,0,1,1,12.927,0v.1h-1.86v-.1a4.564,4.564,0,0,0-.786-2.57,4.644,4.644,0,0,0-2.029-1.673,4.561,4.561,0,0,0-1.676-.359,6.443,6.443,0,0,1,1.93,4.6v2.661h6.984Z" transform="translate(4.421)" fill="#535353"/></g></g></g></g></svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                    <div class="coin-bundle-payment">
+                        <h5>Payment Details</h5>
+                        <p>Complete your purchase by providing your payment details.</p>
+                        <div class="payment-method-field">
+                            <p>Payment Method</p>
+                            <div class="methods-selection tabs">
+                                <div class="methods-cards-selection slide-prev">
+                                    <a href="javascript:void(0)">
+                                    <input type="radio" name="payment" checked>
+                                    <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+                                    <p>Credit or Debit card</p>
+                                    </a>
+                                </div>
+                                <div class="paypal-method-selection slide-next">
+                                    <a href="javascript:void(0)">
+                                        <input type="radio" name="payment">
+                                        <img src="images/paypal-logo.png" alt="image" class="img-fluid">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="methods-selection-slide">
+                                <div class="cards-overflow-div slide-container">
+                                    <div class="slide-first-fields">
+                                        <label>Card Details</label>
+                                        <div class="complete-field">
+                                            <div class="card-inside">
+                                                <input type="text" placeholder="Card Number" class="form-control card-number-text">
+                                                <div class="card-inside-img">
+                                                    <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+                                                </div>
+                                            </div>
+                                            <div class="month-field-cont">
+                                                <input type="text" placeholder="MM/YY" class="form-control month-field">
+                                            </div>
+                                            <div class="cvc-field-cont">
+                                                <input type="password" placeholder="CVC" class="form-control cvc-field">
+                                            </div>
+                                        </div>
+                                        <div class="card-holder-name">
+                                            <label>Card Holder Name</label>
+                                            <input type="text" placeholder="Jeff Jordan" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="slide-second-fields">
+                                        <a href="javascript:void(0)"><img src="images/pay-pal-btn.png" alt="image" class="img-fluid"></a>
+                                        <p>Login to your PayPal account with your credentials.</p>
+                                    </div>
+                                </div>
+                                <div class="billing-address">
+                                  <div class="paypal-hide">
+                                    <label>Billing address</label>
+                                    <select class="form-control country-form">
+                                        <option>United States</option>
+                                        <option>United States</option>
+                                        <option>United States</option>
+                                    </select>
+                                    <div class="state-zip-content">
+                                        <input type="number" class="form-control number-form" placeholder="ZIP">
+                                        <input type="text" class="form-control state-form" placeholder="State">
+                                    </div>
+                                  </div>
+                                    <div class="promo-code-content">
+                                        <label>Promotion Code</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="subtotal-summary">
+                                        <ul>
+                                            <li><strong>Subtotal</strong> <span class="pull-right"><strong>$100.00</strong></span></li>
+                                            <li>Promo code <span class="pull-right"><strong>$0</strong></span></li>
+                                            <li><strong>Subtotal</strong> <span class="pull-right"><strong>$100.00</strong></span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="paynow-end-btn">
+                                        <a href="javascript:void(0)">Pay Now</a>
+                                        <p><i class="fa fa-lock" aria-hidden="true"></i> Payments are secure and encrypted</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CHECKOUT CURATOR SECTION END -->
+    <!-- COPYRIGHT SECTION BEGIN -->
+    <section class="copyright-sec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                    <p>Copyright © 2022-2023 Curator Club  |   All rights reserved   |   Proudly designed by <a href="https://clickysoft.com/" target="_blank">clickysoft</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- COPYRIGHT SECTION END -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script>
+    /*MENUBAR SCRIPT BEGIN*/
+    const navbarMenu = document.getElementById("menu");
+    const burgerMenu = document.getElementById("burger");
+    const headerMenu = document.getElementById("header");
+    const overlayMenu = document.querySelector(".overlay");
+    if (burgerMenu && navbarMenu) {
+    burgerMenu.addEventListener("click", () => {
+    burgerMenu.classList.toggle("is-active");
+    navbarMenu.classList.toggle("is-active");
+    });
+    }
+    window.addEventListener("resize", () => {
+    if (window.innerWidth >= 992) {
+    if (navbarMenu.classList.contains("is-active")) {
+    navbarMenu.classList.remove("is-active");
+    overlayMenu.classList.remove("is-active");
+    }
+    }
+    });
+    /*MENUBAR SCRIPT END*/
+    /*DROPDOWN SCRIPT BEGIN*/
+    const dd = document.querySelector('#dropdown-wrapper');
+    const links = document.querySelectorAll('.dropdown-list a');
+    const span = document.querySelector('span');
+    dd.addEventListener('click', function() {
+    this.classList.toggle('is-active');
+    });
+    links.forEach((element) => {
+    element.addEventListener('click', function(evt) {
+    span.innerHTML = evt.currentTarget.textContent;
+    })
+    })
+    /*DROPDOWN SCRIPT END*/
+    /*ACCORDIAN SCRIPT BEGIN*/
+    $('.panel-collapse').on('show.bs.collapse', function () {
+    $(this).siblings('.panel-heading').addClass('active');
+    });
+    $('.panel-collapse').on('hide.bs.collapse', function () {
+    $(this).siblings('.panel-heading').removeClass('active');
+    });
+    /*ACCORDIAN SCRIPT END*/
+    // NOTIFICATION SCRIPT BEGIN
+    $(function() {
+    var profile = $('.profile');
+    var profiledropdown = $('.profiledropdown');
+    profile.on('click', function() {
+    if (profiledropdown.hasClass('fade')) {
+    profiledropdown.removeClass('fade').addClass('fade_reverse');
+    } else if (profiledropdown.hasClass('fade_reverse')) {
+    profiledropdown.removeClass('fade_reverse').addClass('fade');
+    } else {
+    profiledropdown.addClass('fade');
+    }
+    });
+    });
+    // NOTIFICATION SCRIPT END
+    // AVATAR SCRIPT BEGIN
+    document.querySelector('.mini-photo-wrapper').addEventListener('click', function() {
+    document.querySelector('.menu-container').classList.toggle('active');
+    });
+    document.querySelector('.mini-photo-wrapper2').addEventListener('click', function() {
+    document.querySelector('.menu-container2').classList.toggle('active');
+    });
+    // AVATAR SCRIPT END
+    // CHECKOUT RADIO BUTTON SELECTION SCRIPT BEGIN
+    let selectedBundle = null;
+    function activateBundle(element) {
+    if (selectedBundle) {
+    selectedBundle.classList.remove("selected");
+    }
+    element.classList.add("selected");
+    selectedBundle = element;
+    const radioButton = element.querySelector('input[type="radio"]');
+    if (radioButton) {
+    radioButton.checked = true;
+    }
+    }
+    // CHECKOUT RADIO BUTTON SELECTION SCRIPT END
+    // PAYMENT METHOD SLIDE SHOW & HIDE SCRIPT BEGIN
+    $(".slide-container").slick({
+    arrows:false,
+    dots:false,
+    infinite:false,
+    })
+    $('.slide-prev').click(function (e) {
+    $('.slide-container').slick('slickPrev');
+    $(".methods-cards-selection input[type=radio]").prop('checked', true);
+    $(".paypal-method-selection input[type=radio]").prop('checked', false);
+    });
+    $('.slide-next').click(function (e) {
+    $('.slide-container').slick('slickNext');
+    $(".methods-cards-selection input[type=radio]").prop('checked', false);
+    $(".paypal-method-selection input[type=radio]").prop('checked', true);
+    });
+    // PAYMENT METHOD SLIDE SHOW & HIDE SCRIPT END
+    // PAYPAL BILLING ADDRESS SCRIPT BEGIN
+    $(document).ready(function () {
+    $(".paypal-hide").show();
+    $(".slide-next").click(function () {
+    $(".paypal-hide").hide();
+    });
+    $(".slide-prev").click(function () {
+    $(".paypal-hide").show();
+    });
+    });
+    // PAYPAL BILLING ADDRESS SCRIPT END
+    </script>
+  </body>
+</html>

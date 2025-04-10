@@ -1,0 +1,2239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curator Club - Choose Curators</title>
+    <link rel="icon" type="image/x-icon" href="images/curator-favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/animate.css">
+  </head>
+  <body>
+    <!-- HEADER SECTION BEGIN -->
+    <header class="header how-it-work-header" id="header">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+              <div class="header-inner account-setting-pg">
+                <nav class="navbar container">
+                  <a href="index.html" class="brand"><img src="images/logo.png" alt="image" class="img-fluid"></a>
+                  <div class="burger" id="burger">
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                  </div>
+                  <div class="menu" id="menu">
+                    <ul class="menu-inner">
+                      <li class="menu-item"><a href="index.html" class="menu-link">Home</a></li>
+                      <li class="menu-item"><a href="list-of-curators.html" class="menu-link">List of Curators </a></li>
+                      <li class="menu-item mobile-dropdown-hide">
+                        <a href="javascript:void(0)" class="menu-link">
+                          <div id="dropdown-wrapper" class="dropdown-wrapper" tabindex="1">
+                            <span>How it works </span>
+                            <ul class="dropdown-list">
+                              <li><a href="how-it-works-curator.html">Curator</a></li>
+                              <li><a href="how-it-works-artist.html">Artist</a></li>
+                              <li><a href="how-it-works-influencer.html">influencer</a></li>
+                        </ul>
+                        </div>
+                        </a>
+                      </li>
+                      <li class="menu-item mobile-dropdown">
+                        <p>
+                          <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                          How it works  
+                          <i class="fa fa-angle-down" aria-hidden="true"></i>
+                          </a>
+                        </p>
+                        <div class="collapse" id="collapseExample">
+                          <div class="card card-body">
+                            <ul class="mobile-dropdown-accordian">
+                              <li><a href="how-it-works-curator.html">Curator</a></li>
+                              <li><a href="how-it-works-artist.html">Artist</a></li>
+                              <li><a href="how-it-works-influencer.html">influencer</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="menu-item"><a href="help.html" class="menu-link">Help </a></li>
+                      <li class="menu-item">
+                        <div class="btns-flex curator-mobile-show">
+                          <div class="cur-login-btn">
+                            <div class='profile'>
+                              <div class='avatar'>
+                                <i class="fa fa-bell" aria-hidden="true"></i>
+                              </div>
+                            </div>
+                            <div class='profiledropdown'>
+                              <ul>
+                                <li class='option'>
+                                  <a href="javascript:void(0)">
+                                    <div class="not-flex">
+                                      <div class="not-img">
+                                        <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                                      </div>
+                                      <div class="not-cont">
+                                        <p>Jeff Jordan <span>promoted your answer</span></p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </li>
+                                <li class='option'>
+                                  <a href="javascript:void(0)">
+                                    <div class="not-flex">
+                                      <div class="not-img">
+                                        <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                                      </div>
+                                      <div class="not-cont">
+                                        <p>Jeff Jordan <span>promoted your answer</span></p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </li>
+                                <li class='option'>
+                                  <a href="javascript:void(0)">
+                                    <div class="not-flex">
+                                      <div class="not-img">
+                                        <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                                      </div>
+                                      <div class="not-cont">
+                                        <p>Jeff Jordan <span>promoted your answer</span></p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </li>
+                                <li class='option'>
+                                  <a href="javascript:void(0)">
+                                    <div class="not-flex">
+                                      <div class="not-img">
+                                        <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                                      </div>
+                                      <div class="not-cont">
+                                        <p>Jeff Jordan <span>promoted your answer</span></p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </li>
+                                <li class='option'>
+                                  <a href="javascript:void(0)">
+                                    <div class="not-flex">
+                                      <div class="not-img">
+                                        <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                                      </div>
+                                      <div class="not-cont">
+                                        <p>Jeff Jordan <span>promoted your answer</span></p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="cur-signup-btn">
+                            <div class="user-menu-wrap">
+                              <div class="jeff-cont">
+                                <a class="mini-photo-wrapper2" href="javascript:void(0)"><img class="mini-photo" src="images/avatar-small-img.png" alt="image" width="80" height="80"/>
+                                Jeff Jordan
+                                </a>
+                              </div>
+                              <div class="menu-container2">
+                                <ul class="user-menu">
+                                  <div class="profile-highlight">
+                                    <img src="images/avatar-small-img.png" alt="profile-img" width=36 height=36>
+                                    <div class="details">
+                                      <div id="profile-name">Jeff Jordan</div>
+                                      <div id="profile-footer"><a href="javascript:void(0)" class="jeff-mail">jjordan@mail.com</a></div>
+                                      <div><a href="javascript:void(0)" class="jeff-view-profile">View Profile</a></div>
+                                    </div>
+                                  </div>
+                                  <li class="user-menu__item">
+                                    <a class="user-menu-link" href="javascript:void(0)">
+                                      <div>My Campaigns</div>
+                                    </a>
+                                  </li>
+                                  <li class="user-menu__item">
+                                    <a class="user-menu-link" href="javascript:void(0)">
+                                      <div>My Credits <span class="pull-right credit-amount-content">30 <img src="images/cur-small-logo.png" alt="image" class="img-fluid"></span></div>
+                                    </a>
+                                  </li>
+                                  <li class="user-menu__item">
+                                    <a class="user-menu-link" href="javascript:void(0)">
+                                      <div>Settings</div>
+                                    </a>
+                                  </li>
+                                  <li class="user-menu__item">
+                                    <a class="user-menu-link" href="javascript:void(0)">
+                                      <div>Help</div>
+                                    </a>
+                                  </li>
+                                  <li class="user-menu__item">
+                                    <a class="user-menu-link" href="javascript:void(0)">
+                                      <div>Log Out</div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+                <div class="btns-flex curator-mobile-hide">
+                  <div class="cur-login-btn">
+                    <div class='profile'>
+                      <div class='avatar'>
+                        <i class="fa fa-bell" aria-hidden="true"></i>
+                      </div>
+                    </div>
+                    <div class='profiledropdown'>
+                      <ul>
+                        <li class='option'>
+                          <a href="javascript:void(0)">
+                            <div class="not-flex">
+                              <div class="not-img">
+                                <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                              </div>
+                              <div class="not-cont">
+                                <p>Natalie Portman <span>promoted your answer</span></p>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                        <li class='option'>
+                          <a href="javascript:void(0)">
+                            <div class="not-flex">
+                              <div class="not-img">
+                                <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                              </div>
+                              <div class="not-cont">
+                                <p>Natalie Portman <span>promoted your answer</span></p>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                        <li class='option'>
+                          <a href="javascript:void(0)">
+                            <div class="not-flex">
+                              <div class="not-img">
+                                <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                              </div>
+                              <div class="not-cont">
+                                <p>Natalie Portman <span>promoted your answer</span></p>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                        <li class='option'>
+                          <a href="javascript:void(0)">
+                            <div class="not-flex">
+                              <div class="not-img">
+                                <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                              </div>
+                              <div class="not-cont">
+                                <p>Natalie Portman <span>promoted your answer</span></p>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                        <li class='option'>
+                          <a href="javascript:void(0)">
+                            <div class="not-flex">
+                              <div class="not-img">
+                                <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                              </div>
+                              <div class="not-cont">
+                                <p>Natalie Portman <span>promoted your answer</span></p>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="cur-signup-btn">
+                    <div class="user-menu-wrap">
+                      <div class="jeff-cont">
+                        <a class="mini-photo-wrapper" href="javascript:void(0)"><img class="mini-photo" src="images/avatar-small-img.png" alt="image" width="80" height="80"/>
+                         Jeff Jordan 
+                        </a>
+                      </div>
+                      <div class="menu-container">
+                        <ul class="user-menu">
+                          <div class="profile-highlight">
+                            <img src="images/avatar-small-img.png" alt="profile-img" width=36 height=36>
+                            <div class="details">
+                              <div id="profile-name">Jeff Jordan</div>
+                              <div id="profile-footer"><a href="javascript:void(0)" class="jeff-mail">jjordan@mail.com</a></div>
+                              <div><a href="javascript:void(0)" class="jeff-view-profile">View Profile</a></div>
+                            </div>
+                          </div>
+                          <li class="user-menu__item">
+                            <a class="user-menu-link" href="javascript:void(0)">
+                              <div>My Campaigns</div>
+                            </a>
+                          </li>
+                          <li class="user-menu__item">
+                            <a class="user-menu-link" href="javascript:void(0)">
+                              <div>My Credits <span class="pull-right credit-amount-content">30 <img src="images/cur-small-logo.png" alt="image" class="img-fluid"></span></div>
+                            </a>
+                          </li>
+                          <li class="user-menu__item">
+                            <a class="user-menu-link" href="javascript:void(0)">
+                              <div>Settings</div>
+                            </a>
+                          </li>
+                          <li class="user-menu__item">
+                            <a class="user-menu-link" href="javascript:void(0)">
+                              <div>Help</div>
+                            </a>
+                          </li>
+                          <li class="user-menu__item">
+                            <a class="user-menu-link" href="javascript:void(0)">
+                              <div>Log Out</div>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </header>
+    <!-- HEADER SECTION END -->
+    <!-- CHOOSE CURATOR SECTION BEGIN -->
+    <section class="choose-curators-sec-bg">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 colsm-12 col-12">
+                    <div class="choose-back-arrow">
+                        <a href="javascript:void(0)"><img src="images/yellow-curator-back.png" alt="image" class="img-fluid"> Go to Step 3</a>
+                        <h4>Choose curators</h4>
+                    </div>
+                    <div class="row choose-curator-flex">
+                        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                                    <div class="ch-curator-dropdown">
+                                        <div class="select-header" onclick="toggleDropdown(this)">
+                                          <span class="arrow" id="arrow"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+                                          <span class="selected-option" id="selectedOption">Curator Type</span>
+                                        </div>
+                                        <ul class="options" id="options">
+                                          <li class="round" onclick="toggleCheckbox(this)">
+                                            <input type="checkbox" id="checkbox1" />
+                                            <label for="checkbox1"></label>
+                                            Bloggers</li>
+                                          <li class="round" onclick="toggleCheckbox(this)">
+                                            <input type="checkbox" id="checkbox2" />
+                                            <label for="checkbox2"></label>
+                                            Spotify playlists</li>
+                                          <li class="round" onclick="toggleCheckbox(this)">
+                                            <input type="checkbox" id="checkbox3" />
+                                            <label for="checkbox3"></label>
+                                            SoundCloud</li>
+                                          <li class="round" onclick="toggleCheckbox(this)">
+                                            <input type="checkbox" id="checkbox4" />
+                                            <label for="checkbox4"></label>
+                                            YouTubers</li>
+                                          <li class="round" onclick="toggleCheckbox(this)">
+                                            <input type="checkbox" id="checkbox5" />
+                                            <label for="checkbox5"></label>
+                                            Streamer</li>
+                                          <li class="round" onclick="toggleCheckbox(this)">
+                                            <input type="checkbox" id="checkbox6" />
+                                            <label for="checkbox6"></label>
+                                            Social media</li>
+                                          <li class="round" onclick="toggleCheckbox(this)">
+                                            <input type="checkbox" id="checkbox7" />
+                                            <label for="checkbox7"></label>
+                                            Radio stations</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                                    <div class="ch-curator-dropdown">
+                                        <div class="select-header" onclick="toggleDropdown(this)">
+                                          <span class="arrow" id="arrow" data-dropdown="2"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+                                          <span class="selected-option" id="selectedOption">Genres</span>
+                                        </div>
+                                        <div class="options dropdown-tabs-content" id="options">
+                                          <div class="dropdown-tabs">
+                                            <div class="row">
+                                              <div class="col-lg-5 col-md-5 col-sm-5 col-12">
+                                                <div class="tab-left-listing">
+                                                  <a href="javascript:void(0)" id="left1"  class="tab left-tab active">Hip Hop <i class="fa fa-plus pull-right" aria-hidden="true"></i></a>
+                                                  <a href="javascript:void(0)" id="left2"  class="tab left-tab">Pop <i class="fa fa-plus pull-right" aria-hidden="true"></i></a>
+                                                  <a href="javascript:void(0)" id="left3"  class="tab left-tab">R&B <i class="fa fa-plus pull-right" aria-hidden="true"></i></a>
+                                                  <a href="javascript:void(0)" id="left4"  class="tab left-tab">Rock <i class="fa fa-plus pull-right" aria-hidden="true"></i></a>
+                                                  <a href="javascript:void(0)" id="left5"  class="tab left-tab">Country/Folk <i class="fa fa-plus pull-right" aria-hidden="true"></i></a>
+                                                  <a href="javascript:void(0)" id="left6"  class="tab left-tab">Alternative / Indie <i class="fa fa-plus pull-right" aria-hidden="true"></i></a>
+                                                  <a href="javascript:void(0)" id="left7"  class="tab left-tab">Lofi / Lounge / Ambient <i class="fa fa-plus pull-right" aria-hidden="true"></i></a>
+                                                  <a href="javascript:void(0)" id="left8"  class="tab left-tab">EDM <i class="fa fa-plus pull-right" aria-hidden="true"></i></a>
+                                                  <a href="javascript:void(0)" id="left9"  class="tab left-tab">House/Techno <i class="fa fa-plus pull-right" aria-hidden="true"></i></a>
+                                                  <a href="javascript:void(0)" id="left10"  class="tab left-tab">Jazz <i class="fa fa-plus pull-right" aria-hidden="true"></i></a>
+                                                  <a href="javascript:void(0)" id="left11"  class="tab left-tab">Reggae <i class="fa fa-plus pull-right" aria-hidden="true"></i></a>
+                                                  <a href="javascript:void(0)" id="left12"  class="tab left-tab">Disco / Funk <i class="fa fa-plus pull-right" aria-hidden="true"></i></a>
+                                                  <a href="javascript:void(0)" id="left13"  class="tab left-tab">International <i class="fa fa-plus pull-right" aria-hidden="true"></i></a>
+                                                  <a href="javascript:void(0)" id="left14"  class="tab left-tab">Other <i class="fa fa-plus pull-right" aria-hidden="true"></i></a>
+                                                </div>
+                                              </div>
+                                              <div class="col-lg-7 col-md-7 col-sm-7 col-12">
+                                                <div class="tab-right-listing">
+                                                  <div class="tab-right-listing-content tab-content active" id="right1">
+                                                    <ul class="options-listing-content">
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Rap (Eminem)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Trap (Travis Scott)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Melodic Rap (Kid LAROI)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Sad Rap / Emo Rap (Lil Peep)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Drill (Fivio Foriegn)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Old School / Boom Bap (2 Pac)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Gang Rap (Lil Durk)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          UK Hip Hop (Skepta) 
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Latin Hip Hop (J Balvin)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Detroit Rap (Babytron) 
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Alternative Hip Hop
+                                                      </li>
+                                                    </ul>
+                                                  </div>
+                                                  <div class="tab-right-listing-content tab-content" id="right2">
+                                                    <ul class="options-listing-content">
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                        Mainstream Pop (Harry Styles) 
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                        Alternative Pop (Billie Eilish)  
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                        K-Pop (BTS) 
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                        Hyper pop (Glaive)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                        Pop Punk (MGK) 
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                        Dance Pop (Pit Bull) 
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                        Country Pop (Taylor Swift) 
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                        Electro Pop (Charli XCX) 
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                        Latin Pop (Bad Bunny)  
+                                                      </li>
+                                                    </ul>
+                                                  </div>
+                                                  <div class="tab-right-listing-content tab-content" id="right3">
+                                                    <ul class="options-listing-content">
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                        Contemporary R&B (Mainstream) 
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                        Alternative R&B (Frank Ocean) 
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                        Trap-Soul (Bryson Tiller) 
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                        Neo - Soul (Lauryn Hill) 
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                        Soul (Aretha Franklin) 
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                        Toronto R&B (PARTYNEXTDOOR)
+                                                      </li>
+                                                    </ul>
+                                                  </div>
+                                                  <div class="tab-right-listing-content tab-content" id="right4">
+                                                    <ul class="options-listing-content">
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                        Mainstream Rock (AC/DC)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                        Alternative Rock (Nirvana)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                        Emo / Punk Rock (Fallout Boy)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                        Heavy Metal (Slipknot)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                        Psychedelic Rock (Tame Impala)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                        Lofi Rock (Mac DeMarco)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                        Christian Rock (Skillet)
+                                                      </li>     
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                        Soft Rock
+                                                      </li>                                                  
+                                                    </ul>
+                                                  </div>
+                                                  <div class="tab-right-listing-content tab-content" id="right5">
+                                                    <ul class="options-listing-content">
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Rap (Eminem)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Trap (Travis Scott)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Melodic Rap (Kid LAROI)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Sad Rap / Emo Rap (Lil Peep)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Drill (Fivio Foriegn)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Old School / Boom Bap (2 Pac)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Gang Rap (Lil Durk)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          UK Hip Hop (Skepta) 
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Latin Hip Hop (J Balvin)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Detroit Rap (Babytron) 
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Alternative Hip Hop
+                                                      </li>
+                                                    </ul>
+                                                  </div>
+                                                  <div class="tab-right-listing-content tab-content" id="right6">
+                                                    <ul class="options-listing-content">
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Rap (Eminem)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Trap (Travis Scott)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Melodic Rap (Kid LAROI)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Sad Rap / Emo Rap (Lil Peep)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Drill (Fivio Foriegn)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Old School / Boom Bap (2 Pac)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Gang Rap (Lil Durk)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          UK Hip Hop (Skepta) 
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Latin Hip Hop (J Balvin)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Detroit Rap (Babytron) 
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Alternative Hip Hop
+                                                      </li>
+                                                    </ul>
+                                                  </div>
+                                                  <div class="tab-right-listing-content tab-content" id="right7">
+                                                    <ul class="options-listing-content">
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Rap (Eminem)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Trap (Travis Scott)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Melodic Rap (Kid LAROI)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Sad Rap / Emo Rap (Lil Peep)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Drill (Fivio Foriegn)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Old School / Boom Bap (2 Pac)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Gang Rap (Lil Durk)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          UK Hip Hop (Skepta) 
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Latin Hip Hop (J Balvin)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Detroit Rap (Babytron) 
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Alternative Hip Hop
+                                                      </li>
+                                                    </ul>
+                                                  </div>
+                                                  <div class="tab-right-listing-content tab-content" id="right8">
+                                                    <ul class="options-listing-content">
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Rap (Eminem)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Trap (Travis Scott)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Melodic Rap (Kid LAROI)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Sad Rap / Emo Rap (Lil Peep)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Drill (Fivio Foriegn)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Old School / Boom Bap (2 Pac)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Gang Rap (Lil Durk)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          UK Hip Hop (Skepta) 
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Latin Hip Hop (J Balvin)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Detroit Rap (Babytron) 
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Alternative Hip Hop
+                                                      </li>
+                                                    </ul>
+                                                  </div>
+                                                  <div class="tab-right-listing-content tab-content" id="right9">
+                                                    <ul class="options-listing-content">
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Rap (Eminem)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Trap (Travis Scott)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Melodic Rap (Kid LAROI)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Sad Rap / Emo Rap (Lil Peep)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Drill (Fivio Foriegn)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Old School / Boom Bap (2 Pac)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Gang Rap (Lil Durk)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          UK Hip Hop (Skepta) 
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Latin Hip Hop (J Balvin)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Detroit Rap (Babytron) 
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Alternative Hip Hop
+                                                      </li>
+                                                    </ul>
+                                                  </div>
+                                                  <div class="tab-right-listing-content tab-content" id="right10">
+                                                    <ul class="options-listing-content">
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Rap (Eminem)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Trap (Travis Scott)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Melodic Rap (Kid LAROI)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Sad Rap / Emo Rap (Lil Peep)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Drill (Fivio Foriegn)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Old School / Boom Bap (2 Pac)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Gang Rap (Lil Durk)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          UK Hip Hop (Skepta) 
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Latin Hip Hop (J Balvin)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Detroit Rap (Babytron) 
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Alternative Hip Hop
+                                                      </li>
+                                                    </ul>
+                                                  </div>
+                                                  <div class="tab-right-listing-content tab-content" id="right11">
+                                                    <ul class="options-listing-content">
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Rap (Eminem)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Trap (Travis Scott)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Melodic Rap (Kid LAROI)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Sad Rap / Emo Rap (Lil Peep)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Drill (Fivio Foriegn)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Old School / Boom Bap (2 Pac)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Gang Rap (Lil Durk)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          UK Hip Hop (Skepta) 
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Latin Hip Hop (J Balvin)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Detroit Rap (Babytron) 
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Alternative Hip Hop
+                                                      </li>
+                                                    </ul>
+                                                  </div>
+                                                  <div class="tab-right-listing-content tab-content" id="right12">
+                                                    <ul class="options-listing-content">
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Rap (Eminem)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Trap (Travis Scott)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Melodic Rap (Kid LAROI)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Sad Rap / Emo Rap (Lil Peep)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Drill (Fivio Foriegn)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Old School / Boom Bap (2 Pac)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Gang Rap (Lil Durk)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          UK Hip Hop (Skepta) 
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Latin Hip Hop (J Balvin)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Detroit Rap (Babytron) 
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Alternative Hip Hop
+                                                      </li>
+                                                    </ul>
+                                                  </div>  
+                                                  <div class="tab-right-listing-content tab-content" id="right13">
+                                                    <ul class="options-listing-content">
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Rap (Eminem)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Trap (Travis Scott)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Melodic Rap (Kid LAROI)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Sad Rap / Emo Rap (Lil Peep)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Drill (Fivio Foriegn)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Old School / Boom Bap (2 Pac)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Gang Rap (Lil Durk)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          UK Hip Hop (Skepta) 
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Latin Hip Hop (J Balvin)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Detroit Rap (Babytron) 
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Alternative Hip Hop
+                                                      </li>
+                                                    </ul>
+                                                  </div>
+                                                  <div class="tab-right-listing-content tab-content" id="right14">
+                                                    <ul class="options-listing-content">
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Rap (Eminem)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Trap (Travis Scott)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Melodic Rap (Kid LAROI)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Sad Rap / Emo Rap (Lil Peep)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Drill (Fivio Foriegn)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Old School / Boom Bap (2 Pac)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Gang Rap (Lil Durk)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          UK Hip Hop (Skepta) 
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Latin Hip Hop (J Balvin)
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Detroit Rap (Babytron) 
+                                                      </li>
+                                                      <li onclick="toggleCheckbox(this)">
+                                                        <label class="checkbox">
+                                                          <input type="checkbox" class="checkbox__input"/>
+                                                          <span class="checkbox__inner"></span>
+                                                        </label>
+                                                          Alternative Hip Hop
+                                                      </li>
+                                                    </ul>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                                    <div class="ch-curator-dropdown">
+                                        <div class="select-header" onclick="toggleDropdown(this)">
+                                          <span class="arrow" id="arrow" data-dropdown="3"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+                                          <span class="selected-option" id="selectedOption">Other</span>
+                                        </div>
+                                        <ul class="options others" id="options">
+                                          <li class="round" onclick="toggleCheckbox(this)">
+                                            <input type="checkbox" id="checkbox1" />
+                                            <label for="checkbox1"></label>
+                                            A to Z</li>
+                                          <li class="round" onclick="toggleCheckbox(this)">
+                                            <input type="checkbox" id="checkbox2" />
+                                            <label for="checkbox2"></label>
+                                            Best match</li>
+                                          <li class="round" onclick="toggleCheckbox(this)">
+                                            <input type="checkbox" id="checkbox3" />
+                                            <label for="checkbox3"></label>
+                                            Overall rating</li>
+                                          <li class="round" onclick="toggleCheckbox(this)">
+                                            <input type="checkbox" id="checkbox4" />
+                                            <label for="checkbox4"></label>
+                                            Recently signed up</li>
+                                          <li class="round" onclick="toggleCheckbox(this)">
+                                            <input type="checkbox" id="checkbox5" />
+                                            <label for="checkbox5"></label>
+                                            Oldest joined</li>
+                                          <li class="round" onclick="toggleCheckbox(this)">
+                                            <input type="checkbox" id="checkbox6" />
+                                            <label for="checkbox6"></label>
+                                            Elite Program <span>Members only</span></li>
+                                          <li class="round" onclick="toggleCheckbox(this)">
+                                            <input type="checkbox" id="checkbox7" />
+                                            <label for="checkbox7"></label>
+                                            Curators with prior <span>approvals</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                            <div class="row">
+                                <div class="col-lg-9 col-md-9 col-sm-9 col-12">
+                                    <div class="curator-search-dropdown">
+                                        <input type="text" placeholder="Search by curator or playlist name" class="form-control">
+                                        <div class="curator-search-icon">
+                                            <a href="javascript:void(0)"><i class="fa fa-search" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                                    <div class="curator-fav-btn">
+                                        <a href="favourite.html"><i class="fa fa-heart" aria-hidden="true"></i> Favorate</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                      <div class="row curoator-boxes-listing">
+                        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                          <div class="main-left-side-curator choose-shadow">
+                            <div class="row">
+                              <div class="col-lg-5 col-md-5 col-sm-5 col-12">
+                                <div class="img-flex-div">
+                                  <div class="curator-round-img">
+                                    <img src="images/l-curator1.png" alt="image" class="img-fluid">
+                                  </div>
+                                  <div class="curator-round-content">
+                                    <h6>Chris Luno</h6>
+                                    <p>Spotify Playlister |  Gemany</p>
+                                    <ul>
+                                      <li><i class="fa fa-star" aria-hidden="true"></i> 4.6</li>
+                                      <li><span class="curator-bar">|</span></li>
+                                      <li>Joined 3y ago</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-7 col-md-7 col-sm-7 col-12">
+                                <div class="bx-main-flex">
+                                  <div class="fr-box-cur">
+                                    <p>Decent Match</p>
+                                    <img src="images/yl-des.png" alt="image" class="img-fluid">
+                                    <div class="tooltip-box">
+                                      <a href="javascript:void(0)"><i class="fa fa-info-circle" aria-hidden="true"></i>
+                                        <div class="tooltip-inner-text">
+                                          <span>Welcome to Curators Club</span>
+                                        </div>
+                                      </a>
+                                    </div>                                          
+                                  </div>
+                                  <div class="fr-box-cur">
+                                    <p>AcceptanceRate</p>
+                                    <span>67%</span>
+                                    <div class="tooltip-box">
+                                      <a href="javascript:void(0)"><i class="fa fa-info-circle" aria-hidden="true"></i>
+                                        <div class="tooltip-inner-text">
+                                          <span>Welcome to Curators Club</span>
+                                        </div>
+                                      </a>
+                                    </div> 
+                                  </div>
+                                  <div class="fr-box-cur">
+                                    <p>Notable Stats</p>
+                                    <img src="images/ag-tag.png" alt="image" class="img-fluid">
+                                    <div class="tooltip-box">
+                                      <a href="javascript:void(0)"><i class="fa fa-info-circle" aria-hidden="true"></i>
+                                        <div class="tooltip-inner-text">
+                                          <span>Welcome to Curators Club</span>
+                                        </div>
+                                      </a>
+                                    </div> 
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="curator-genre">
+                              <p>Genre</p>
+                              <ul>
+                                <li>Rap (Eminem)</li>
+                                <li>Drill (Fivio Foriegn)</li>
+                                <li>Alternative Hip Hop</li>
+                                <li>Gang Rap (Lil Durk) </li>
+                              </ul>
+                              <div class="genre-msg-bar">
+                                <p>The person will be unavailable until August 14, 2023. Consequently, this profile cannot review the song during this period.</p>
+                            </div>
+                            </div>
+                            <div class="curator-hover-listing">
+                              <div class="cr-hover-content">
+                                <h6>Popular Playlists</h6>
+                                <a href="curator-profile.html">(View all 6)</a>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                                  <div class="shared-slider-box">
+                                    <a href="javascript:void(0)">
+                                      <div class="img-hover-chg">
+                                        <div class="img-chg-overlays"></div>
+                                        <div class="hover-text-chg">
+                                          <p><i class="fa fa-music" aria-hidden="true"></i> Tracks:91 <span>(View More)</span></p>
+                                        </div>
+                                        <div class="play-icon-img"><span><i class="fa fa-play" aria-hidden="true"></i></span></div>
+                                        <img src="images/sh1.png" alt="image" class="img-fluid">
+                                      </div>
+                                    </a>
+                                    <h6>Best Hip-Hop 2020</h6>
+                                    <ul>
+                                      <li>Followers:</li>
+                                      <li>16.5k</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                                  <div class="shared-slider-box">
+                                    <a href="javascript:void(0)">
+                                      <div class="img-hover-chg">
+                                        <div class="img-chg-overlays"></div>
+                                        <div class="hover-text-chg">
+                                          <p><i class="fa fa-music" aria-hidden="true"></i> Tracks:91 <span>(View More)</span></p>
+                                        </div>
+                                        <div class="play-icon-img"><span><i class="fa fa-play" aria-hidden="true"></i></span></div>
+                                        <img src="images/sh2.png" alt="image" class="img-fluid">
+                                      </div>
+                                    </a>
+                                    <h6>Lofi Hip Hop </h6>
+                                    <ul>
+                                      <li>Followers:</li>
+                                      <li>16.5k</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                                  <div class="shared-slider-box">
+                                    <a href="javascript:void(0)">
+                                      <div class="img-hover-chg">
+                                        <div class="img-chg-overlays"></div>
+                                        <div class="hover-text-chg">
+                                          <p><i class="fa fa-music" aria-hidden="true"></i> Tracks:91 <span>(View More)</span></p>
+                                        </div>
+                                        <div class="play-icon-img"><span><i class="fa fa-play" aria-hidden="true"></i></span></div>
+                                        <img src="images/sh22.png" alt="image" class="img-fluid">
+                                      </div>
+                                    </a>
+                                    <h6>Global Hip-hop 2022</h6>
+                                    <ul>
+                                      <li>Followers:</li>
+                                      <li>16.5k</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="selection-f-box form-group">
+                              <div class="selection-f-input">
+                                <p><input type="checkbox" id="html">
+                                  <label for="html"></label>
+                                  2 Credits</p>
+                              </div>
+                              <div class="selection-f-input">
+                                <p>Add to favorites <i class="fa fa-heart" aria-hidden="true"></i></p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="main-left-side-curator choose-shadow">
+                            <div class="row">
+                              <div class="col-lg-5 col-md-5 col-sm-5 col-12">
+                                <div class="img-flex-div">
+                                  <div class="curator-round-img">
+                                    <img src="images/l-curator1.png" alt="image" class="img-fluid">
+                                  </div>
+                                  <div class="curator-round-content">
+                                    <h6>Chris Luno</h6>
+                                    <p>Spotify Playlister |  Gemany</p>
+                                    <ul>
+                                      <li><i class="fa fa-star" aria-hidden="true"></i> 4.6</li>
+                                      <li><span class="curator-bar">|</span></li>
+                                      <li>Joined 3y ago</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-7 col-md-7 col-sm-7 col-12">
+                                <div class="bx-main-flex">
+                                  <div class="fr-box-cur">
+                                    <p>Perfect Match</p>
+                                    <img src="images/gradient-star.png" alt="image" class="img-fluid">
+                                    <div class="tooltip-box">
+                                      <a href="javascript:void(0)"><i class="fa fa-info-circle" aria-hidden="true"></i>
+                                        <div class="tooltip-inner-text">
+                                          <span>Welcome to Curators Club</span>
+                                        </div>
+                                      </a>
+                                    </div>                                          
+                                  </div>
+                                  <div class="fr-box-cur">
+                                    <p>AcceptanceRate</p>
+                                    <span>67%</span>
+                                    <div class="tooltip-box">
+                                      <a href="javascript:void(0)"><i class="fa fa-info-circle" aria-hidden="true"></i>
+                                        <div class="tooltip-inner-text">
+                                          <span>Welcome to Curators Club</span>
+                                        </div>
+                                      </a>
+                                    </div> 
+                                  </div>
+                                  <div class="fr-box-cur">
+                                    <p>Notable Stats</p>
+                                    <img src="images/ag-tag.png" alt="image" class="img-fluid">
+                                    <div class="tooltip-box">
+                                      <a href="javascript:void(0)"><i class="fa fa-info-circle" aria-hidden="true"></i>
+                                        <div class="tooltip-inner-text">
+                                          <span>Welcome to Curators Club</span>
+                                        </div>
+                                      </a>
+                                    </div> 
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="curator-genre">
+                              <p>Genre</p>
+                              <ul>
+                                <li>Rap (Eminem)</li>
+                                <li>Drill (Fivio Foriegn)</li>
+                                <li>Alternative Hip Hop</li>
+                                <li>Gang Rap (Lil Durk) </li>
+                              </ul>
+                            </div>
+                            <div class="curator-hover-listing">
+                              <div class="cr-hover-content">
+                                <h6>Popular Playlists</h6>
+                                <a href="curator-profile.html">(View all 6)</a>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                                  <div class="shared-slider-box">
+                                    <a href="javascript:void(0)">
+                                      <div class="img-hover-chg">
+                                        <div class="img-chg-overlays"></div>
+                                        <div class="hover-text-chg">
+                                          <p><i class="fa fa-music" aria-hidden="true"></i> Tracks:91 <span>(View More)</span></p>
+                                        </div>
+                                        <div class="play-icon-img"><span><i class="fa fa-play" aria-hidden="true"></i></span></div>
+                                        <img src="images/sh1.png" alt="image" class="img-fluid">
+                                      </div>
+                                    </a>
+                                    <h6>Best Hip-Hop 2020</h6>
+                                    <ul>
+                                      <li>Followers:</li>
+                                      <li>16.5k</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                                  <div class="shared-slider-box">
+                                    <a href="javascript:void(0)">
+                                      <div class="img-hover-chg">
+                                        <div class="img-chg-overlays"></div>
+                                        <div class="hover-text-chg">
+                                          <p><i class="fa fa-music" aria-hidden="true"></i> Tracks:91 <span>(View More)</span></p>
+                                        </div>
+                                        <div class="play-icon-img"><span><i class="fa fa-play" aria-hidden="true"></i></span></div>
+                                        <img src="images/sh2.png" alt="image" class="img-fluid">
+                                      </div>
+                                    </a>
+                                    <h6>Lofi Hip Hop </h6>
+                                    <ul>
+                                      <li>Followers:</li>
+                                      <li>16.5k</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                                  <div class="shared-slider-box">
+                                    <a href="javascript:void(0)">
+                                      <div class="img-hover-chg">
+                                        <div class="img-chg-overlays"></div>
+                                        <div class="hover-text-chg">
+                                          <p><i class="fa fa-music" aria-hidden="true"></i> Tracks:91 <span>(View More)</span></p>
+                                        </div>
+                                        <div class="play-icon-img"><span><i class="fa fa-play" aria-hidden="true"></i></span></div>
+                                        <img src="images/sh22.png" alt="image" class="img-fluid">
+                                      </div>
+                                    </a>
+                                    <h6>Global Hip-hop 2022</h6>
+                                    <ul>
+                                      <li>Followers:</li>
+                                      <li>16.5k</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="selection-f-box form-group">
+                              <div class="selection-f-input">
+                                <p><input type="checkbox" id="css">
+                                  <label for="css"></label>
+                                  2 Credits</p>
+                              </div>
+                              <div class="selection-f-input">
+                                <p>Add to favorites <i class="fa fa-heart" aria-hidden="true"></i></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                          <div class="main-left-side-curator choose-shadow">
+                            <div class="row">
+                              <div class="col-lg-5 col-md-5 col-sm-5 col-12">
+                                <div class="img-flex-div">
+                                  <div class="curator-round-img">
+                                    <img src="images/l-curator1.png" alt="image" class="img-fluid">
+                                  </div>
+                                  <div class="curator-round-content">
+                                    <h6>Chris Luno</h6>
+                                    <p>Spotify Playlister |  Gemany</p>
+                                    <ul>
+                                      <li><i class="fa fa-star" aria-hidden="true"></i> 4.6</li>
+                                      <li><span class="curator-bar">|</span></li>
+                                      <li>Joined 3y ago</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-7 col-md-7 col-sm-7 col-12">
+                                <div class="bx-main-flex">
+                                  <div class="fr-box-cur">
+                                    <p>Decent Match</p>
+                                    <img src="images/y1-des2.png" alt="image" class="img-fluid">
+                                    <div class="tooltip-box">
+                                      <a href="javascript:void(0)"><i class="fa fa-info-circle" aria-hidden="true"></i>
+                                        <div class="tooltip-inner-text">
+                                          <span>Welcome to Curators Club</span>
+                                        </div>
+                                      </a>
+                                    </div>                                          
+                                  </div>
+                                  <div class="fr-box-cur">
+                                    <p>AcceptanceRate</p>
+                                    <span>67%</span>
+                                    <div class="tooltip-box">
+                                      <a href="javascript:void(0)"><i class="fa fa-info-circle" aria-hidden="true"></i>
+                                        <div class="tooltip-inner-text">
+                                          <span>Welcome to Curators Club</span>
+                                        </div>
+                                      </a>
+                                    </div> 
+                                  </div>
+                                  <div class="fr-box-cur">
+                                    <p>Notable Stats</p>
+                                    <img src="images/ag-tag.png" alt="image" class="img-fluid">
+                                    <div class="tooltip-box">
+                                      <a href="javascript:void(0)"><i class="fa fa-info-circle" aria-hidden="true"></i>
+                                        <div class="tooltip-inner-text">
+                                          <span>Welcome to Curators Club</span>
+                                        </div>
+                                      </a>
+                                    </div> 
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="curator-genre">
+                              <p>Genre</p>
+                              <ul>
+                                <li>Rap (Eminem)</li>
+                                <li>Drill (Fivio Foriegn)</li>
+                                <li>Alternative Hip Hop</li>
+                                <li>Gang Rap (Lil Durk) </li>
+                              </ul>
+                            </div>
+                            <div class="curator-hover-listing">
+                              <div class="cr-hover-content">
+                                <h6>Popular Playlists</h6>
+                                <a href="curator-profile.html">(View all 6)</a>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                                  <div class="shared-slider-box">
+                                    <a href="javascript:void(0)">
+                                      <div class="img-hover-chg">
+                                        <div class="img-chg-overlays"></div>
+                                        <div class="hover-text-chg">
+                                          <p><i class="fa fa-music" aria-hidden="true"></i> Tracks:91 <span>(View More)</span></p>
+                                        </div>
+                                        <div class="play-icon-img"><span><i class="fa fa-play" aria-hidden="true"></i></span></div>
+                                        <img src="images/sh1.png" alt="image" class="img-fluid">
+                                      </div>
+                                    </a>
+                                    <h6>Best Hip-Hop 2020</h6>
+                                    <ul>
+                                      <li>Followers:</li>
+                                      <li>16.5k</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                                  <div class="shared-slider-box">
+                                    <a href="javascript:void(0)">
+                                      <div class="img-hover-chg">
+                                        <div class="img-chg-overlays"></div>
+                                        <div class="hover-text-chg">
+                                          <p><i class="fa fa-music" aria-hidden="true"></i> Tracks:91 <span>(View More)</span></p>
+                                        </div>
+                                        <div class="play-icon-img"><span><i class="fa fa-play" aria-hidden="true"></i></span></div>
+                                        <img src="images/sh2.png" alt="image" class="img-fluid">
+                                      </div>
+                                    </a>
+                                    <h6>Lofi Hip Hop </h6>
+                                    <ul>
+                                      <li>Followers:</li>
+                                      <li>16.5k</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                                  <div class="shared-slider-box">
+                                    <a href="javascript:void(0)">
+                                      <div class="img-hover-chg">
+                                        <div class="img-chg-overlays"></div>
+                                        <div class="hover-text-chg">
+                                          <p><i class="fa fa-music" aria-hidden="true"></i> Tracks:91 <span>(View More)</span></p>
+                                        </div>
+                                        <div class="play-icon-img"><span><i class="fa fa-play" aria-hidden="true"></i></span></div>
+                                        <img src="images/sh22.png" alt="image" class="img-fluid">
+                                      </div>
+                                    </a>
+                                    <h6>Global Hip-hop 2022</h6>
+                                    <ul>
+                                      <li>Followers:</li>
+                                      <li>16.5k</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="selection-f-box form-group">
+                              <div class="selection-f-input">
+                                <p><input type="checkbox" id="javascript">
+                                  <label for="javascript"></label>
+                                  2 Credits</p>
+                              </div>
+                              <div class="selection-f-input">
+                                <p>Add to favorites <i class="fa fa-heart" aria-hidden="true"></i></p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="main-left-side-curator choose-shadow">
+                            <div class="row">
+                              <div class="col-lg-5 col-md-5 col-sm-5 col-12">
+                                <div class="img-flex-div">
+                                  <div class="curator-round-img">
+                                    <img src="images/l-curator1.png" alt="image" class="img-fluid">
+                                  </div>
+                                  <div class="curator-round-content">
+                                    <h6>Chris Luno</h6>
+                                    <p>Spotify Playlister |  Gemany</p>
+                                    <ul>
+                                      <li><i class="fa fa-star" aria-hidden="true"></i> 4.6</li>
+                                      <li><span class="curator-bar">|</span></li>
+                                      <li>Joined 3y ago</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-7 col-md-7 col-sm-7 col-12">
+                                <div class="bx-main-flex">
+                                  <div class="fr-box-cur">
+                                    <p>Decent Match</p>
+                                    <img src="images/gra-dislike.png" alt="image" class="img-fluid">
+                                    <div class="tooltip-box">
+                                      <a href="javascript:void(0)"><i class="fa fa-info-circle" aria-hidden="true"></i>
+                                        <div class="tooltip-inner-text">
+                                          <span>Welcome to Curators Club</span>
+                                        </div>
+                                      </a>
+                                    </div>                                          
+                                  </div>
+                                  <div class="fr-box-cur">
+                                    <p>AcceptanceRate</p>
+                                    <span>67%</span>
+                                    <div class="tooltip-box">
+                                      <a href="javascript:void(0)"><i class="fa fa-info-circle" aria-hidden="true"></i>
+                                        <div class="tooltip-inner-text">
+                                          <span>Welcome to Curators Club</span>
+                                        </div>
+                                      </a>
+                                    </div> 
+                                  </div>
+                                  <div class="fr-box-cur">
+                                    <p>Notable Stats</p>
+                                    <img src="images/ag-tag.png" alt="image" class="img-fluid">
+                                    <div class="tooltip-box">
+                                      <a href="javascript:void(0)"><i class="fa fa-info-circle" aria-hidden="true"></i>
+                                        <div class="tooltip-inner-text">
+                                          <span>Welcome to Curators Club</span>
+                                        </div>
+                                      </a>
+                                    </div> 
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="curator-genre">
+                              <p>Genre</p>
+                              <ul>
+                                <li>Rap (Eminem)</li>
+                                <li>Drill (Fivio Foriegn)</li>
+                                <li>Alternative Hip Hop</li>
+                                <li>Gang Rap (Lil Durk) </li>
+                              </ul>
+                            </div>
+                            <div class="curator-hover-listing">
+                              <div class="cr-hover-content">
+                                <h6>Popular Playlists</h6>
+                                <a href="curator-profile.html">(View all 6)</a>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                                  <div class="shared-slider-box">
+                                    <a href="javascript:void(0)">
+                                      <div class="img-hover-chg">
+                                        <div class="img-chg-overlays"></div>
+                                        <div class="hover-text-chg">
+                                          <p><i class="fa fa-music" aria-hidden="true"></i> Tracks:91 <span>(View More)</span></p>
+                                        </div>
+                                        <div class="play-icon-img"><span><i class="fa fa-play" aria-hidden="true"></i></span></div>
+                                        <img src="images/sh1.png" alt="image" class="img-fluid">
+                                      </div>
+                                    </a>
+                                    <h6>Best Hip-Hop 2020</h6>
+                                    <ul>
+                                      <li>Followers:</li>
+                                      <li>16.5k</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                                  <div class="shared-slider-box">
+                                    <a href="javascript:void(0)">
+                                      <div class="img-hover-chg">
+                                        <div class="img-chg-overlays"></div>
+                                        <div class="hover-text-chg">
+                                          <p><i class="fa fa-music" aria-hidden="true"></i> Tracks:91 <span>(View More)</span></p>
+                                        </div>
+                                        <div class="play-icon-img"><span><i class="fa fa-play" aria-hidden="true"></i></span></div>
+                                        <img src="images/sh2.png" alt="image" class="img-fluid">
+                                      </div>
+                                    </a>
+                                    <h6>Lofi Hip Hop </h6>
+                                    <ul>
+                                      <li>Followers:</li>
+                                      <li>16.5k</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                                  <div class="shared-slider-box">
+                                    <a href="javascript:void(0)">
+                                      <div class="img-hover-chg">
+                                        <div class="img-chg-overlays"></div>
+                                        <div class="hover-text-chg">
+                                          <p><i class="fa fa-music" aria-hidden="true"></i> Tracks:91 <span>(View More)</span></p>
+                                        </div>
+                                        <div class="play-icon-img"><span><i class="fa fa-play" aria-hidden="true"></i></span></div>
+                                        <img src="images/sh22.png" alt="image" class="img-fluid">
+                                      </div>
+                                    </a>
+                                    <h6>Global Hip-hop 2022</h6>
+                                    <ul>
+                                      <li>Followers:</li>
+                                      <li>16.5k</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="selection-f-box form-group">
+                              <div class="selection-f-input">
+                                <p><input type="checkbox" id="jquery">
+                                  <label for="jquery"></label>
+                                  2 Credits</p>
+                              </div>
+                              <div class="selection-f-input">
+                                <p>Add to favorites <i class="fa fa-heart" aria-hidden="true"></i></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <!-- BOTTOM SELECTION BAR CONTENT BEGIN -->
+      <div class="curator-bottom-selection-bar">
+        <div class="bottom-selection-left">
+          <div class="display-curator-img">
+            <img src="images/bt11.png" alt="image" class="img-fluid">
+            <img src="images/bt22.png" alt="image" class="img-fluid curator-img-move">
+          </div>
+          <div class="curator-move-content">
+            <p>2 Selected Curator : 4 Credits</p>
+            <span>Display My Selections</span>
+          </div>
+        </div>
+        <div class="bottom-selection-btn">
+          <a href="packages.html" class="btn btn-primary">Finish my submission </a>
+        </div>
+      </div>
+       <!-- BOTTOM SELECTION BAR CONTENT END -->
+    </section>
+    <!-- CHOOSE CURATOR SECTION END -->
+    <!-- COPYRIGHT SECTION BEGIN -->
+    <section class="copyright-sec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                    <p>Copyright © 2022-2023 Curator Club  |   All rights reserved   |   Proudly designed by <a href="https://clickysoft.com/" target="_blank">clickysoft</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- COPYRIGHT SECTION END -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script>
+    /*MENUBAR SCRIPT BEGIN*/
+    const navbarMenu = document.getElementById("menu");
+    const burgerMenu = document.getElementById("burger");
+    const headerMenu = document.getElementById("header");
+    const overlayMenu = document.querySelector(".overlay");
+    if (burgerMenu && navbarMenu) {
+    burgerMenu.addEventListener("click", () => {
+    burgerMenu.classList.toggle("is-active");
+    navbarMenu.classList.toggle("is-active");
+    });
+    }
+    window.addEventListener("resize", () => {
+    if (window.innerWidth >= 992) {
+    if (navbarMenu.classList.contains("is-active")) {
+    navbarMenu.classList.remove("is-active");
+    overlayMenu.classList.remove("is-active");
+    }
+    }
+    });
+    /*MENUBAR SCRIPT END*/
+    /*DROPDOWN SCRIPT BEGIN*/
+    const dd = document.querySelector('#dropdown-wrapper');
+    const links = document.querySelectorAll('.dropdown-list a');
+    const span = document.querySelector('span');
+    dd.addEventListener('click', function() {
+    this.classList.toggle('is-active');
+    });
+    links.forEach((element) => {
+    element.addEventListener('click', function(evt) {
+    span.innerHTML = evt.currentTarget.textContent;
+    })
+    })
+    /*DROPDOWN SCRIPT END*/
+    /*ACCORDIAN SCRIPT BEGIN*/
+    $('.panel-collapse').on('show.bs.collapse', function () {
+    $(this).siblings('.panel-heading').addClass('active');
+    });
+    $('.panel-collapse').on('hide.bs.collapse', function () {
+    $(this).siblings('.panel-heading').removeClass('active');
+    });
+    /*ACCORDIAN SCRIPT END*/
+    // NOTIFICATION SCRIPT BEGIN
+    $(function() {
+    var profile = $('.profile');
+    var profiledropdown = $('.profiledropdown');
+    profile.on('click', function() {
+    if (profiledropdown.hasClass('fade')) {
+    profiledropdown.removeClass('fade').addClass('fade_reverse');
+    } else if (profiledropdown.hasClass('fade_reverse')) {
+    profiledropdown.removeClass('fade_reverse').addClass('fade');
+    } else {
+    profiledropdown.addClass('fade');
+    }
+    });
+    });
+    // NOTIFICATION SCRIPT END
+    // AVATAR SCRIPT BEGIN
+    document.querySelector('.mini-photo-wrapper').addEventListener('click', function() {
+    document.querySelector('.menu-container').classList.toggle('active');
+    });
+    document.querySelector('.mini-photo-wrapper2').addEventListener('click', function() {
+    document.querySelector('.menu-container2').classList.toggle('active');
+    });
+    // AVATAR SCRIPT END
+    // LISTING DROPDOWN ARROW SCRIPT BEGIN
+    function toggleDropdown(header) {
+    const arrow = header.querySelector('.arrow');
+    const options = header.nextElementSibling;
+    const dropdownNumber = arrow.getAttribute('data-dropdown');
+    arrow.classList.toggle('open');
+    options.classList.toggle('open');
+    if (options.classList.contains('open')) {
+    arrow.style.transform = 'rotate(180deg)';
+    } else {
+    arrow.style.transform = 'rotate(0deg)';
+    }
+    }
+    document.querySelectorAll('.options li').forEach((option) => {
+    option.addEventListener('click', (e) => {
+    const selectedOption = e.target.textContent;
+    const header = e.target.closest('.custom-select').querySelector('.select-header');
+    const selectedOptionElement = header.querySelector('.selected-option');
+    selectedOptionElement.textContent = selectedOption;
+    toggleDropdown(header);
+    });
+    });
+    // LISTING DROPDOWN ARROW SCRIPT END
+    // CURATOR SELECTION CHECKBOX BEGIN
+    function toggleCheckbox(listItem) {
+    var checkbox = listItem.querySelector('input[type="checkbox"]');
+    checkbox.checked = !checkbox.checked;
+    }
+    // CURATOR SELECTION CHECKBOX END
+    // GENERE TABS CHANGE SCRIPT BEGIN
+    $(document).ready(function() {
+    $(".tab").click(function() {
+    $(".tab").removeClass("active");
+    $(this).addClass("active");
+    var tabIndex = $(this).index();
+    $(".tab-content").removeClass("active");
+    $(".tab-content:eq(" + tabIndex + ")").addClass("active");
+    });
+    });
+    // GENERE TABS CHANGE SCRIPT END
+    </script>
+  </body>
+</html>

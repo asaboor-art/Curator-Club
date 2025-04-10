@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curator Club -  Upload Song Playlisting Floor</title>
+    <link rel="icon" type="image/x-icon" href="images/curator-favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/animate.css">
+  </head>
+  <body class="ground-floor-body">
+    <!-- HEADER SECTION BEGIN -->
+    <header class="header successful-header" id="header">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+              <div class="header-inner account-setting-pg">
+                <nav class="navbar container">
+                  <a href="index.html" class="brand"><img src="images/logo.png" alt="image" class="img-fluid"></a>
+                  <div class="burger" id="burger">
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                  </div>
+                  <div class="menu" id="menu">
+                    <ul class="menu-inner">
+                      <li class="menu-item"><a href="index.html" class="menu-link">Home</a></li>
+                      <li class="menu-item"><a href="list-of-curators.html" class="menu-link">List of Curators </a></li>
+                      <li class="menu-item mobile-dropdown-hide">
+                        <a href="javascript:void(0)" class="menu-link">
+                          <div id="dropdown-wrapper" class="dropdown-wrapper" tabindex="1">
+                            <span>How it works </span>
+                            <ul class="dropdown-list">
+                              <li><a href="how-it-works-curator.html">Curator</a></li>
+                              <li><a href="how-it-works-artist.html">Artist</a></li>
+                              <li><a href="how-it-works-influencer.html">influencer</a></li>
+                        </ul>
+                        </div>
+                        </a>
+                      </li>
+                      <li class="menu-item mobile-dropdown">
+                        <p>
+                          <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                          How it works  
+                          <i class="fa fa-angle-down" aria-hidden="true"></i>
+                          </a>
+                        </p>
+                        <div class="collapse" id="collapseExample">
+                          <div class="card card-body">
+                            <ul class="mobile-dropdown-accordian">
+                              <li><a href="how-it-works-curator.html">Curator</a></li>
+                              <li><a href="how-it-works-artist.html">Artist</a></li>
+                              <li><a href="how-it-works-influencer.html">influencer</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="menu-item"><a href="help.html" class="menu-link">Help </a></li>
+                      <li class="menu-item">
+                        <div class="btns-flex curator-mobile-show">
+                          <div class="cur-login-btn">
+                            <div class='profile'>
+                              <div class='avatar'>
+                                <i class="fa fa-bell" aria-hidden="true"></i>
+                              </div>
+                            </div>
+                            <div class='profiledropdown'>
+                              <ul>
+                                <li class='option'>
+                                  <a href="javascript:void(0)">
+                                    <div class="not-flex">
+                                      <div class="not-img">
+                                        <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                                      </div>
+                                      <div class="not-cont">
+                                        <p>Jeff Jordan <span>promoted your answer</span></p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </li>
+                                <li class='option'>
+                                  <a href="javascript:void(0)">
+                                    <div class="not-flex">
+                                      <div class="not-img">
+                                        <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                                      </div>
+                                      <div class="not-cont">
+                                        <p>Jeff Jordan <span>promoted your answer</span></p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </li>
+                                <li class='option'>
+                                  <a href="javascript:void(0)">
+                                    <div class="not-flex">
+                                      <div class="not-img">
+                                        <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                                      </div>
+                                      <div class="not-cont">
+                                        <p>Jeff Jordan <span>promoted your answer</span></p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </li>
+                                <li class='option'>
+                                  <a href="javascript:void(0)">
+                                    <div class="not-flex">
+                                      <div class="not-img">
+                                        <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                                      </div>
+                                      <div class="not-cont">
+                                        <p>Jeff Jordan <span>promoted your answer</span></p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </li>
+                                <li class='option'>
+                                  <a href="javascript:void(0)">
+                                    <div class="not-flex">
+                                      <div class="not-img">
+                                        <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                                      </div>
+                                      <div class="not-cont">
+                                        <p>Jeff Jordan <span>promoted your answer</span></p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="cur-signup-btn">
+                            <div class="user-menu-wrap">
+                              <div class="jeff-cont">
+                                <a class="mini-photo-wrapper2" href="javascript:void(0)"><img class="mini-photo" src="images/avatar-small-img.png" alt="image" width="80" height="80"/>
+                                Jeff Jordan
+                                </a>
+                              </div>
+                              <div class="menu-container2">
+                                <ul class="user-menu">
+                                  <div class="profile-highlight">
+                                    <img src="images/avatar-small-img.png" alt="profile-img" width=36 height=36>
+                                    <div class="details">
+                                      <div id="profile-name">Jeff Jordan</div>
+                                      <div id="profile-footer"><a href="javascript:void(0)" class="jeff-mail">jjordan@mail.com</a></div>
+                                      <div><a href="javascript:void(0)" class="jeff-view-profile">View Profile</a></div>
+                                    </div>
+                                  </div>
+                                  <li class="user-menu__item">
+                                    <a class="user-menu-link" href="javascript:void(0)">
+                                      <div>My Campaigns</div>
+                                    </a>
+                                  </li>
+                                  <li class="user-menu__item">
+                                    <a class="user-menu-link" href="javascript:void(0)">
+                                      <div>My Credits <span class="pull-right credit-amount-content">30 <img src="images/cur-small-logo.png" alt="image" class="img-fluid"></span></div>
+                                    </a>
+                                  </li>
+                                  <li class="user-menu__item">
+                                    <a class="user-menu-link" href="javascript:void(0)">
+                                      <div>Settings</div>
+                                    </a>
+                                  </li>
+                                  <li class="user-menu__item">
+                                    <a class="user-menu-link" href="javascript:void(0)">
+                                      <div>Help</div>
+                                    </a>
+                                  </li>
+                                  <li class="user-menu__item">
+                                    <a class="user-menu-link" href="javascript:void(0)">
+                                      <div>Log Out</div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+                <div class="btns-flex curator-mobile-hide">
+                  <div class="cur-login-btn">
+                    <div class='profile'>
+                      <div class='avatar'>
+                        <i class="fa fa-bell" aria-hidden="true"></i>
+                      </div>
+                    </div>
+                    <div class='profiledropdown'>
+                      <ul>
+                        <li class='option'>
+                          <a href="javascript:void(0)">
+                            <div class="not-flex">
+                              <div class="not-img">
+                                <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                              </div>
+                              <div class="not-cont">
+                                <p>Natalie Portman <span>promoted your answer</span></p>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                        <li class='option'>
+                          <a href="javascript:void(0)">
+                            <div class="not-flex">
+                              <div class="not-img">
+                                <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                              </div>
+                              <div class="not-cont">
+                                <p>Natalie Portman <span>promoted your answer</span></p>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                        <li class='option'>
+                          <a href="javascript:void(0)">
+                            <div class="not-flex">
+                              <div class="not-img">
+                                <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                              </div>
+                              <div class="not-cont">
+                                <p>Natalie Portman <span>promoted your answer</span></p>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                        <li class='option'>
+                          <a href="javascript:void(0)">
+                            <div class="not-flex">
+                              <div class="not-img">
+                                <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                              </div>
+                              <div class="not-cont">
+                                <p>Natalie Portman <span>promoted your answer</span></p>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                        <li class='option'>
+                          <a href="javascript:void(0)">
+                            <div class="not-flex">
+                              <div class="not-img">
+                                <img src="images/avatar-small-img.png" alt="image" class="img-fluid">
+                              </div>
+                              <div class="not-cont">
+                                <p>Natalie Portman <span>promoted your answer</span></p>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="cur-signup-btn">
+                    <div class="user-menu-wrap">
+                      <div class="jeff-cont">
+                        <a class="mini-photo-wrapper" href="javascript:void(0)"><img class="mini-photo" src="images/avatar-small-img.png" alt="image" width="80" height="80"/>
+                         Jeff Jordan 
+                        </a>
+                      </div>
+                      <div class="menu-container">
+                        <ul class="user-menu">
+                          <div class="profile-highlight">
+                            <img src="images/avatar-small-img.png" alt="profile-img" width=36 height=36>
+                            <div class="details">
+                              <div id="profile-name">Jeff Jordan</div>
+                              <div id="profile-footer"><a href="javascript:void(0)" class="jeff-mail">jjordan@mail.com</a></div>
+                              <div><a href="javascript:void(0)" class="jeff-view-profile">View Profile</a></div>
+                            </div>
+                          </div>
+                          <li class="user-menu__item">
+                            <a class="user-menu-link" href="javascript:void(0)">
+                              <div>My Campaigns</div>
+                            </a>
+                          </li>
+                          <li class="user-menu__item">
+                            <a class="user-menu-link" href="javascript:void(0)">
+                              <div>My Credits <span class="pull-right credit-amount-content">30 <img src="images/cur-small-logo.png" alt="image" class="img-fluid"></span></div>
+                            </a>
+                          </li>
+                          <li class="user-menu__item">
+                            <a class="user-menu-link" href="javascript:void(0)">
+                              <div>Settings</div>
+                            </a>
+                          </li>
+                          <li class="user-menu__item">
+                            <a class="user-menu-link" href="javascript:void(0)">
+                              <div>Help</div>
+                            </a>
+                          </li>
+                          <li class="user-menu__item">
+                            <a class="user-menu-link" href="javascript:void(0)">
+                              <div>Log Out</div>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </header>
+    <!-- HEADER SECTION END -->
+    <!-- UPLOAD SONG PLAYLISTING FLOOR SECTION BEGIN -->
+    <section class="upload-song-playlsiting-sec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-8 col-12">
+                  <div class="add-another-content" style="display: none;">
+                    <div class="add-another-curator">
+                        <img src="images/add-another-img.png" alt="image" class="img-fluid">
+                    </div>
+                    <div class="add-another-curator-content">
+                        <p>Song title Here</p>
+                        <span>Artist Name</span>
+                        <a href="javascript:void(0)" class="remove-content"><i class="fa fa-times" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                    <div class="upload-song-journey">
+                        <div class="upload-song-tab">
+                            <h4>Choose a song</h4>
+                            <div class="upload-song-selection-field">
+                              <div class="upload-song-link-field">
+                                  <div class="radio-upload-song">
+                                      <input type="radio" name="source" value="link">
+                                  </div>
+                                  <input type="text" placeholder="Paste Song Link Here (Spotify, YouTube, SoundCloud, etc.)" class="form-control" fdprocessedid="t46lbt">
+                              </div>
+                              <div class="upload-song-mp3">
+                                  <div class="radio-upload-song">
+                                      <input type="radio" name="source" value="mp3">
+                                  </div>
+                                  <button type="button" class="btn btn-primary" fdprocessedid="gdlfuo" id="uploadButton">Upload an MP3</button>
+                              </div>
+                          </div>
+                          <div class="song-hide-box">
+                            <div class="song-hide-img-flex">
+                              <div class="song-hide-img">
+                                <img src="images/song-hide-img.png" alt="images" class="img-fluid">
+                              </div>
+                              <div class="song-hide-content">
+                                <h6>Song title here</h6>
+                                <p>Jeff Jordan</p>
+                                <span>PREVIEW</span>
+                              </div>
+                            </div>
+                            <div class="white-spotify-box">
+                              <div class="white-spotify-icon">
+                                <a href="javascript:void(0)"><img src="images/white-spotify.png" alt="images/" aria-multiline="image" class="img-fluid"></a>
+                              </div>
+                              <div class="dots-play-icon">
+                                  <a href="javascript:void(0)"><span class="upload-dots"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></span></a>
+                                  <a href="javascript:void(0)"><span class="upload-play-icon"><i class="fa fa-play" aria-hidden="true"></i></span></a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row show-hide-box-song">
+                            <div class="col-lg-4 col-md-8 col-sm-8 col-12">
+                              <div id="previewContainer"></div>
+                              <div class="image-thumbnail-selector">
+                                <a href="javascript:void(0)">
+                                  <img src="images/upload-sec-img.png" alt="image" class="img-fluid">
+                                  <p>Choose a file or drag it here.</p>
+                                  <div class="album-art-work">
+                                    <span>Album artwork</span>
+                                  </div>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                            <div class="is-song-text">
+                                <h5>Is this song released?</h5>
+                                <div class="upload-song-yes-no">
+                                    <div class="upload-song-yes-btn">
+                                        <div class="radio-upload-song-yes">
+                                            <input type="radio" name="source1" value="mp3">
+                                        </div>
+                                        <button type="button" class="btn btn-primary">Yes</button>
+                                    </div>
+                                    <div class="upload-song-no-btn">
+                                        <div class="radio-upload-song-no">
+                                            <input type="radio" name="source1" value="mp3">
+                                        </div>
+                                        <button type="button" class="btn btn-primary">No</button>
+                                    </div>
+                                </div>
+                                <div class="released-song-date">
+                                  <span>When was your song released?</span>
+                                  <input type="date" class="form-control">
+                                </div>
+                            </div>
+                            <div class="artist-song-name">
+                                <h5>Artist name</h5>
+                                <input type="text" class="form-control" placeholder="Artist name here">
+                            </div>
+                            <div class="artist-song-name">
+                              <h5>Track title</h5>
+                              <input type="text" class="form-control" placeholder="Track title here">
+                            </div>
+                            <h5 class="release-text">What kind of release is this?</h5>
+                            <div class="upload-song-yes-no">
+                                <div class="upload-song-yes-btn">
+                                    <div class="radio-upload-song-yes">
+                                        <input type="radio" name="source1" value="mp3">
+                                    </div>
+                                    <button type="button" class="btn btn-primary">Official Release</button>
+                                </div>
+                                <div class="upload-song-no-btn">
+                                    <div class="radio-upload-song-no">
+                                        <input type="radio" name="source1" value="mp3">
+                                    </div>
+                                    <button type="button" class="btn btn-primary">Remix</button>
+                                </div>
+                                <div class="upload-song-no-btn">
+                                  <div class="radio-upload-song-no">
+                                      <input type="radio" name="source1" value="mp3">
+                                  </div>
+                                  <button type="button" class="btn btn-primary">Cover</button>
+                              </div>
+                              <div class="upload-song-no-btn">
+                                <div class="radio-upload-song-no">
+                                    <input type="radio" name="source1" value="mp3">
+                                </div>
+                                <button type="button" class="btn btn-primary">Unfinished Demo</button>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="song-info-tab">
+                          <div class="song-released-tab-text">
+                            <h5>Does this song have lyrics?</h5>
+                                <div class="upload-song-yes-no">
+                                    <div class="upload-song-yes-btn upload-show-anime">
+                                        <div class="radio-upload-song-yes">
+                                            <input type="radio" name="source1" value="mp3">
+                                        </div>
+                                        <button type="button" class="btn btn-primary">Yes</button>
+                                    </div>
+                                    <div class="upload-song-no-btn upload-hide-anime">
+                                        <div class="radio-upload-song-no">
+                                            <input type="radio" name="source1" value="mp3">
+                                        </div>
+                                        <button type="button" class="btn btn-primary">No</button>
+                                    </div>
+                                </div>
+                                <div class="released-song-language">
+                                  <div class="language-selection">
+                                    <select class="form-control">
+                                      <option>English</option>
+                                      <option>German</option>
+                                      <option>French</option>
+                                    </select>
+                                  </div>
+                                  <div class="upload-lyrics-btn">
+                                    <button type="button" class="btn btn-primary" fdprocessedid="hf5d8d">Upload Lyrics (optional) <img src="images/upload-pdf.png" alt="image" class="img-fluid"></button>
+                                  </div>
+                                </div>
+                                <div class="songs-lyrics-area">
+                                  <textarea cols="4" rows="5" class="form-control"></textarea>
+                                </div>
+                          </div>
+                          <div class="song-released-tab-text curator-song-options">
+                            <h5>Is this song explicit?</h5>
+                                <div class="upload-song-yes-no">
+                                    <div class="upload-song-yes-btn">
+                                        <div class="radio-upload-song-yes">
+                                            <input type="radio" name="source1" value="mp3">
+                                        </div>
+                                        <button type="button" class="btn btn-primary">Yes</button>
+                                    </div>
+                                    <div class="upload-song-no-btn">
+                                        <div class="radio-upload-song-no">
+                                            <input type="radio" name="source1" value="mp3">
+                                        </div>
+                                        <button type="button" class="btn btn-primary">No</button>
+                                    </div>
+                                </div>
+                          </div>
+                          <div class="song-released-tab-text curator-genres">
+                            <h5>Genres</h5>
+                            <p>You can select up to 5 genres.</p>
+                              <div class="row">
+                                <div class="col-lg-3 col-md-4 col-sm-4 col-12">
+                                  <div class="select-dropdown-text">
+                                    <select class="form-control">
+                                      <option>Hip Hop</option>
+                                      <option>Hip Hop</option>
+                                      <option>Hip Hop</option>
+                                      <option>Hip Hop</option>
+                                      <option>Hip Hop</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-4 col-12">
+                                  <div class="select-dropdown-text">
+                                    <select class="form-control">
+                                      <option>Pop</option>
+                                      <option>Pop</option>
+                                      <option>Pop</option>
+                                      <option>Pop</option>
+                                      <option>Pop</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-4 col-12">
+                                  <div class="select-dropdown-text">
+                                    <select class="form-control">
+                                      <option>R&B</option>
+                                      <option>R&B</option>
+                                      <option>R&B</option>
+                                      <option>R&B</option>
+                                      <option>R&B</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-4 col-12">
+                                  <div class="select-dropdown-text">
+                                    <select class="form-control">
+                                      <option>Rock</option>
+                                      <option>Rock</option>
+                                      <option>Rock</option>
+                                      <option>Rock</option>
+                                      <option>Rock</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-4 col-12">
+                                  <div class="select-dropdown-text">
+                                    <select class="form-control">
+                                      <option>Country / Folk</option>
+                                      <option>Country / Folk</option>
+                                      <option>Country / Folk</option>
+                                      <option>Country / Folk</option>
+                                      <option>Country / Folk</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-4 col-12">
+                                  <div class="select-dropdown-text">
+                                    <select class="form-control">
+                                      <option>Alternative / Indie</option>
+                                      <option>Alternative / Indie</option>
+                                      <option>Alternative / Indie</option>
+                                      <option>Alternative / Indie</option>
+                                      <option>Alternative / Indie</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-4 col-12">
+                                  <div class="select-dropdown-text">
+                                    <select class="form-control">
+                                      <option>Lofi / Lounge / Ambient</option>
+                                      <option>Lofi / Lounge / Ambient</option>
+                                      <option>Lofi / Lounge / Ambient</option>
+                                      <option>Lofi / Lounge / Ambient</option>
+                                      <option>Lofi / Lounge / Ambient</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-4 col-12">
+                                  <div class="select-dropdown-text">
+                                    <select class="form-control">
+                                      <option>EDM</option>
+                                      <option>EDM</option>
+                                      <option>EDM</option>
+                                      <option>EDM</option>
+                                      <option>EDM</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-4 col-12">
+                                  <div class="select-dropdown-text">
+                                    <select class="form-control">
+                                      <option>House/Techno</option>
+                                      <option>House/Techno</option>
+                                      <option>House/Techno</option>
+                                      <option>House/Techno</option>
+                                      <option>House/Techno</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-4 col-12">
+                                  <div class="select-dropdown-text">
+                                    <select class="form-control">
+                                      <option>Jazz</option>
+                                      <option>Jazz</option>
+                                      <option>Jazz</option>
+                                      <option>Jazz</option>
+                                      <option>Jazz</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-4 col-12">
+                                  <div class="select-dropdown-text">
+                                    <select class="form-control">
+                                      <option>Reggae</option>
+                                      <option>Reggae</option>
+                                      <option>Reggae</option>
+                                      <option>Reggae</option>
+                                      <option>Reggae</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-4 col-12">
+                                  <div class="select-dropdown-text">
+                                    <select class="form-control">
+                                      <option>Disco / Funk</option>
+                                      <option>Disco / Funk</option>
+                                      <option>Disco / Funk</option>
+                                      <option>Disco / Funk</option>
+                                      <option>Disco / Funk</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-4 col-12">
+                                  <div class="select-dropdown-text">
+                                    <select class="form-control">
+                                      <option>International</option>
+                                      <option>International</option>
+                                      <option>International</option>
+                                      <option>International</option>
+                                      <option>International</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-4 col-12">
+                                  <div class="select-dropdown-text">
+                                    <select class="form-control">
+                                      <option>Other</option>
+                                      <option>Other</option>
+                                      <option>Other</option>
+                                      <option>Other</option>
+                                      <option>Other</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="pitch-curator">
+                            <h5>Write down the pitch for Curator</h5>
+                            <p  class="round"><input type="checkbox" id="checkbox" />
+                              <label for="checkbox"></label>
+                               Personalize your pitch with curator's name.</p>
+                            <div class="pitch-text-area">
+                              <textarea cols="4" rows="6" class="form-control" placeholder="Write your message...."></textarea>
+                              <div class="curator-animate-text">
+                                <p>Hello Jhon,</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="bottom-add-btn">
+                            <a href="javascript:void(0)" class="btn btn-primary add-another-btn"><i class="fa fa-plus-circle" aria-hidden="true"></i> Add another song</a>
+                            <a href="track-overview-playlisting-floor.html" class="btn btn-primary add-next-pg-btn">NEXT <img src="images/upload-front-img.png" alt="image" class="img-fluid"></a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- UPLOAD SONG PLAYLISTING FLOOR SECTION END -->
+    <!-- COPYRIGHT SECTION BEGIN -->
+    <section class="copyright-sec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                    <p>Copyright © 2022-2023 Curator Club  |   All rights reserved   |   Proudly designed by <a href="https://clickysoft.com/" target="_blank">clickysoft</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- COPYRIGHT SECTION END -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script>
+    /*MENUBAR SCRIPT BEGIN*/
+    const navbarMenu = document.getElementById("menu");
+    const burgerMenu = document.getElementById("burger");
+    const headerMenu = document.getElementById("header");
+    const overlayMenu = document.querySelector(".overlay");
+    if (burgerMenu && navbarMenu) {
+    burgerMenu.addEventListener("click", () => {
+    burgerMenu.classList.toggle("is-active");
+    navbarMenu.classList.toggle("is-active");
+    });
+    }
+    window.addEventListener("resize", () => {
+    if (window.innerWidth >= 992) {
+    if (navbarMenu.classList.contains("is-active")) {
+    navbarMenu.classList.remove("is-active");
+    overlayMenu.classList.remove("is-active");
+    }
+    }
+    });
+    /*MENUBAR SCRIPT END*/
+    /*DROPDOWN SCRIPT BEGIN*/
+    const dd = document.querySelector('#dropdown-wrapper');
+    const links = document.querySelectorAll('.dropdown-list a');
+    const span = document.querySelector('span');
+    dd.addEventListener('click', function() {
+    this.classList.toggle('is-active');
+    });
+    links.forEach((element) => {
+    element.addEventListener('click', function(evt) {
+    span.innerHTML = evt.currentTarget.textContent;
+    })
+    })
+    /*DROPDOWN SCRIPT END*/
+    /*ACCORDIAN SCRIPT BEGIN*/
+    $('.panel-collapse').on('show.bs.collapse', function () {
+    $(this).siblings('.panel-heading').addClass('active');
+    });
+    $('.panel-collapse').on('hide.bs.collapse', function () {
+    $(this).siblings('.panel-heading').removeClass('active');
+    });
+    /*ACCORDIAN SCRIPT END*/
+    // NOTIFICATION SCRIPT BEGIN
+    $(function() {
+    var profile = $('.profile');
+    var profiledropdown = $('.profiledropdown');
+    profile.on('click', function() {
+    if (profiledropdown.hasClass('fade')) {
+    profiledropdown.removeClass('fade').addClass('fade_reverse');
+    } else if (profiledropdown.hasClass('fade_reverse')) {
+    profiledropdown.removeClass('fade_reverse').addClass('fade');
+    } else {
+    profiledropdown.addClass('fade');
+    }
+    });
+    });
+    // NOTIFICATION SCRIPT END
+    // AVATAR SCRIPT BEGIN
+    document.querySelector('.mini-photo-wrapper').addEventListener('click', function() {
+    document.querySelector('.menu-container').classList.toggle('active');
+    });
+    document.querySelector('.mini-photo-wrapper2').addEventListener('click', function() {
+    document.querySelector('.menu-container2').classList.toggle('active');
+    });
+    // AVATAR SCRIPT END
+    // TOP RADIO BUTTON CHECKED SCRIPT BEGIN
+    $(document).ready(function() {
+    $(".upload-song-link-field .form-control").click(function() {
+    $(this).siblings(".radio-upload-song").find("input[type=radio]").prop("checked", true);
+    });
+    $(".upload-song-mp3 button").click(function() {
+    $(this).siblings(".radio-upload-song").find("input[type=radio]").prop("checked", true);
+    });
+    });
+    // TOP RADIO BUTTON CHECKED SCRIPT END
+    // TOP RADIO BUTTONS FIRLDS BORDER COLOR & BOX SHADOW SCRIPT BEGIN
+    $(document).ready(function() {
+    $(".upload-song-link-field .form-control").click(function() {
+    $(this).addClass("clicked");
+    $(".upload-song-mp3 .btn-primary").removeClass("clicked");
+    });
+    $(".upload-song-mp3 .btn-primary").click(function() {
+    $(this).addClass("clicked");
+    $(".upload-song-link-field .form-control").removeClass("clicked");
+    });
+    });
+    // TOP RADIO BUTTONS FIRLDS BORDER COLOR & BOX SHADOW SCRIPT END
+    // YES OR NO RADIO BUTTON SCRIPT BEGIN
+    $(document).ready(function() {
+    $(".upload-song-yes-no .upload-song-yes-btn").click(function() {
+    $(this).find("input[type=radio]").prop("checked", true);
+    $(this).siblings(".upload-song-no-btn").find("input[type=radio]").prop("checked", false);
+    $(this).siblings(".upload-song-yes-btn").find("input[type=radio]").prop("checked", false);
+    });
+    $(".upload-song-yes-no .upload-song-no-btn").click(function() {
+    $(this).find("input[type=radio]").prop("checked", true);
+    $(this).siblings(".upload-song-yes-btn").find("input[type=radio]").prop("checked", false);
+    $(this).siblings(".upload-song-no-btn").find("input[type=radio]").prop("checked", false);
+    });
+    });
+    // YES OR NO RADIO BUTTON SCRIPT END
+    // UPLOAD SONG NAME WITH CROSS ICON SCRIPT BEGIN
+    document.addEventListener("DOMContentLoaded", function () {
+    const uploadButton = document.getElementById('uploadButton');
+    const previewContainer = document.getElementById('previewContainer');
+    const showHideBox = document.querySelector('.show-hide-box-song');
+    const uploadLinkButton = document.querySelector('.upload-song-link-field');
+    if (localStorage.getItem('showHideBoxVisible') === 'true') {
+    showHideBox.style.maxHeight = showHideBox.scrollHeight + 'px';
+    }
+    uploadButton.addEventListener('click', function () {
+    const fileInput = document.createElement('input');
+    fileInput.type = 'file';
+    fileInput.accept = 'audio/*';      
+    fileInput.addEventListener('change', function (event) {
+    const selectedFile = event.target.files[0];
+    const trackDiv = document.createElement('div');
+    trackDiv.style.display = 'flex';
+    trackDiv.style.alignItems = 'center';            
+    const trackName = document.createElement('p');
+    trackName.textContent = selectedFile.name;            
+    const imagePreview = document.createElement('img');
+    imagePreview.style.maxWidth = '100px'; 
+    imagePreview.style.maxHeight = '100px'; 
+    imagePreview.src = 'images/headphone-icon.png';
+    const deleteButton = document.createElement('button');
+    deleteButton.innerHTML = '<i class="fa fa-times" aria-hidden="true"></i>';
+    deleteButton.style.border = 'none';
+    deleteButton.style.backgroundColor = 'transparent';
+    deleteButton.style.cursor = 'pointer';
+    deleteButton.addEventListener('click', function () {
+    previewContainer.removeChild(trackDiv);
+    });
+    trackDiv.appendChild(imagePreview);
+    trackDiv.appendChild(trackName);
+    trackDiv.appendChild(deleteButton);            
+    previewContainer.innerHTML = '';
+    previewContainer.appendChild(trackDiv);            
+    showHideBox.style.maxHeight = showHideBox.scrollHeight + 'px';
+    localStorage.setItem('showHideBoxVisible', 'true');
+    });    
+    fileInput.click();
+    });
+    uploadLinkButton.addEventListener('click', function () {
+    showHideBox.style.maxHeight = '0';
+    localStorage.setItem('showHideBoxVisible', 'false'); // Save in local storage
+    });
+    });
+    // UPLOAD SONG NAME WITH CROSS ICON SCRIPT END
+    // UPLOAD BANNER ON SONG SCRIPT BEGIN
+    document.addEventListener("DOMContentLoaded", function() {
+    const imageSelector = document.querySelector(".image-thumbnail-selector a");
+    function handleImageUpload() {
+    const imageInput = document.createElement("input");
+    imageInput.type = "file";
+    imageInput.style.display = "none";
+    document.body.appendChild(imageInput);
+    imageInput.addEventListener("change", function(event) {
+    const file = event.target.files[0];
+    if (file) {
+    const reader = new FileReader();
+    reader.onload = function(e) {
+    const imageUrl = e.target.result;
+    const image = document.createElement("img");
+    image.src = imageUrl;
+    image.alt = "Uploaded Image";
+    image.className = "img-fluid";
+    const paragraph = document.createElement("p");
+    paragraph.textContent = "";
+    const anchor = document.createElement("a");
+    anchor.href = "javascript:void(0)";
+    anchor.addEventListener("click", handleImageUpload);
+    anchor.appendChild(image);
+    anchor.appendChild(paragraph);
+    const imageDiv = document.querySelector(".image-thumbnail-selector");
+    imageDiv.innerHTML = ""; 
+    imageDiv.appendChild(anchor);
+    imageInput.value = "";
+    document.body.removeChild(imageInput);
+    };
+    reader.readAsDataURL(file);
+    }
+    });
+    imageInput.click();
+    }
+    imageSelector.addEventListener("click", handleImageUpload);
+    });
+    // UPLOAD BANNER ON SONG SCRIPT END
+    // SHOW AND HIDE PLAYLIST BOX SCRIPT BEGIN
+    document.addEventListener("DOMContentLoaded", function () {
+    const linkInput = document.querySelector(".upload-song-link-field .form-control");
+    const songHideBox = document.querySelector(".song-hide-box");
+    linkInput.addEventListener("input", function () {
+    const link = linkInput.value.trim();
+    if (link !== "") {
+    songHideBox.classList.add("show");
+    } else {
+    songHideBox.classList.remove("show");
+    }
+    });
+    });
+    // SHOW AND HIDE PLAYLIST BOX SCRIPT END
+    // YES & NO BUTTON SHOW & HIDE SCRIPT BEGIN
+    document.addEventListener("DOMContentLoaded", function() {
+    const yesBtn = document.querySelector(".upload-song-yes-btn");
+    const noBtn = document.querySelector(".upload-song-no-btn");
+    const dateElement = document.querySelector(".released-song-date");
+    yesBtn.addEventListener("click", function() {
+    dateElement.classList.add("show");
+    });
+    noBtn.addEventListener("click", function() {
+    dateElement.classList.remove("show");
+    });
+    });
+    // YES & NO BUTTON SHOW & HIDE SCRIPT END
+     // SONGS INFO YES & NO BUTTON SHOW & HIDE SCRIPT BEGIN
+     document.addEventListener("DOMContentLoaded", function() {
+    const yesBtn = document.querySelector(".upload-show-anime");
+    const noBtn = document.querySelector(".upload-hide-anime");
+    const dateElement = document.querySelector(".released-song-language");
+    yesBtn.addEventListener("click", function() {
+    dateElement.classList.add("show");
+    });
+    noBtn.addEventListener("click", function() {
+    dateElement.classList.remove("show");
+    });
+    });
+    // SONGS INFO YES & NO BUTTON SHOW & HIDE SCRIPT END
+    // SONGS INFO UPLOAD INSTRUMENT DOC SCRIPT BEGIN
+    $(document).ready(function() {
+    $('.instrumental-btn button').click(function() {
+    $('#lyricsFileInput-instrument').trigger('click');
+    });
+    $('#lyricsFileInput-instrument').change(function() {
+    var selectedFile = this.files[0];
+    if (selectedFile) {
+    var previewContainer = $('.file-preview-instrument');
+    previewContainer.html('Selected file: ' + selectedFile.name);
+    previewContainer.show();
+    }
+    });
+    });
+    // SONGS INFO UPLOAD INSTRUMENT DOC SCRIPT END
+    // SONGS INFO TEXTAREA ANIMATION SCRIPT BEGIN
+    const round = document.querySelector('.round');
+    const text = document.querySelector('.curator-animate-text p');
+    round.addEventListener('click', function () {
+    const radioBtn = document.getElementById('checkbox');
+    if (radioBtn.checked) {
+    radioBtn.checked = false;
+    text.classList.remove('slide-down');
+    text.classList.add('slide-up');
+    setTimeout(() => {
+    text.style.display = 'none';
+    }, 200);
+    } else {
+    radioBtn.checked = true;
+    text.style.display = 'block';
+    text.classList.remove('slide-up');
+    text.classList.add('slide-down');
+    }
+    });
+    // SONGS INFO TEXTAREA ANIMATION SCRIPT END
+    // TOP ADD BOX SCRIPT BEGIN
+    document.addEventListener("DOMContentLoaded", function () {
+    const addButton = document.querySelector('.bottom-add-btn');
+    const hiddenContent = document.querySelector('.add-another-content');
+    addButton.addEventListener('click', function () {
+    hiddenContent.style.display = 'flex';
+    scrollToTop();
+    });
+    const removeButtons = document.querySelectorAll('.remove-content');
+    removeButtons.forEach(function (removeButton) {
+    removeButton.addEventListener('click', function () {
+    hiddenContent.style.display = 'none';
+    });
+    });
+    function scrollToTop() {
+    window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+    });
+    }
+    });
+    // TOP ADD BOX SCRIPT END
+    $(document).ready(function () {
+            $(".upload-lyrics-btn").click(function () {
+                $(".songs-lyrics-area .form-control").toggle(); 
+            });
+        });
+    </script>
+  </body>
+</html>
